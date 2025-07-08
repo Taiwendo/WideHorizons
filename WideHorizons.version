@@ -1,18 +1,12 @@
 {
-    "masterVersionFile":"https://raw.githubusercontent.com/Taiwendo/WideHorizons/refs/heads/main/WideHorizons.version",
-    "id": "WideHorizons",
-    "modName":"Wide Horizons",
-    "modThreadId":33348,
-    "modVersion":
-    {
-        "major":1,
-        "minor":0,
-        "patch":"6"
-    },
-
-        #Link towards a direct download, fetched from the online version file
-        "directDownloadURL":"https://github.com/Taiwendo/WideHorizons/raw/main/releases/Wide%20Horizons%20v1.0.6.zip",
-
-        #Link towards a directly accessible text file, which can be used to display a changelog ingame, is fetched from the online version file.
-        "changelogURL":"https://raw.githubusercontent.com/Taiwendo/WideHorizons/refs/heads/main/releases/changelog.txt",
+  "masterVersionFile": "https://raw.githubusercontent.com/Taiwendo/WideHorizons/refs/heads/main/WideHorizons.version",
+  "modName": "Wide Horizons",
+  "modThreadId": 33348,
+  "modVersion": {
+    "major": 1,
+    "minor": 0,
+    "patch": 6
+  },
+  "directDownloadURL": "https://github.com/Taiwendo/WideHorizons/raw/main/releases/Wide%20Horizons%20v1.0.6.zip",
+  "changelogURL": "https://raw.githubusercontent.com/Taiwendo/WideHorizons/refs/heads/main/releases/changelog.txt",
 }
