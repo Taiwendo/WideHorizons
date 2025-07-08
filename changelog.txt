@@ -1,20 +1,20 @@
-----------------------------------------
-Wide Horizons – Update Highlights v1.0.1
-----------------------------------------
+**-----------------------------------------------------------------------**
+**Wide Horizons – Update Highlights v1.0.1**
+**-----------------------------------------------------------------------**
 
 Improved Compatibility with RAT Mod:
 
-	You can now choose whether to use universe generation settings from the "Random Assortment of Things" (RAT) mod or stick with Wide Horizons' own settings. 
+	You can now choose whether to use universe generation settings from the "Random Assortment of Things" (RAT) mod or stick with Wide Horizons' own settings.
 	This is fully configurable in-game via the LunaLib mod options menu.
 
 Dynamic Universe Settings – No Restart Needed:
 
-	Changes to galaxy size, number of star systems, gate density, and other settings are now applied immediately — no need to restart or reload. 
+	Changes to galaxy size, number of star systems, gate density, and other settings are now applied immediately — no need to restart or reload.
 	Make your adjustments in LunaLib and see the effects instantly in your next new game.
-
+	
 Smarter Galaxy Scaling:
 
-	Sector size, system count, ruins, Remnant presence, and more now scale dynamically using a centralized "WH Scale" setting. 
+	Sector size, system count, ruins, Remnant presence, and more now scale dynamically using a centralized "WH Scale" setting.
 	This ensures consistent balance and flexibility for both small and massive universes.
 
 Under-the-Hood Improvements:
@@ -23,12 +23,12 @@ Under-the-Hood Improvements:
 	Clean separation between RAT and Wide Horizons setting logic
 	Improved mod compatibility by exposing key galaxy values globally
 
-	This update lays the groundwork for a more modular and customizable Wide Horizons experience. 
+	This update lays the groundwork for a more modular and customizable Wide Horizons experience.
 	Whether you prefer RAT’s universe balance or Wide Horizons’ handcrafted structure - now it’s up to you.
 
------------------------------------------
-Wide Horizons - Update Highlights v1.0.3
------------------------------------------
+**-----------------------------------------------------------------------**
+**Wide Horizons - Update Highlights v1.0.3**
+**-----------------------------------------------------------------------**
 
 Bug Fixes:
 
@@ -38,40 +38,40 @@ Bug Fixes:
 	No More Stars Leaking into the Abyss
 	Fixed an issue where some star systems (especially when using RAT) would spawn too close to or inside the Abyss region of the map.
 
-	Improved Compatibility with Exotic Mods 
-	Previously, certain modded stars (e.g. from Bultach Coalition) caused crashes due to missing or unsupported star data. 
+	Improved Compatibility with Exotic Mods
+	Previously, certain modded stars (e.g. from Bultach Coalition) caused crashes due to missing or unsupported star data.
 	Wide Horizons now includes a fallback system to handle these cases gracefully - and logs helpful messages if something unusual is detected.
 
-	Crash Fixes for Extreme Settings 
+	Crash Fixes for Extreme Settings
 	Fixed crashes that could occur when generating very large galaxies or using unrealistic system size values.
 
-	Savegame-Safety Improvements 
+	Savegame-Safety Improvements
 	Additional compatibility work was done to reduce the risk of corrupted savegames when using other large content mods alongside Wide Horizons.
 
 
 New Content & Features:
 
-	Upgraded Hyperspace Generation 
+	Upgraded Hyperspace Generation
 	Visuals and layout of the hyperspace layer are now more immersive and better scaled for expanded galaxies.
 
-	Bigger Star Systems 
+	Bigger Star Systems
 	Systems can now be generated with more planets and expanded layouts - offering a greater sense of scale.
 
-	Mysterious Dark Star Systems 
+	Mysterious Dark Star Systems
 	A new type of system with unique effects and dark cosmic themes has been introduced. Can you find them?
 
-	Refined Galaxy Layout 
+	Refined Galaxy Layout
 	Adjusted system placement, scaling, and distribution - laying the foundation for upcoming content and themes.
 
 
-Note: 
-	Wide Horizons is still in active development - feedback and crash reports are appreciated! 
+Note:
+	Wide Horizons is still in active development - feedback and crash reports are appreciated!
 	Make sure you use the LunaLib in-game menu to customize your universe size, content density, and system behavior.
 
 
------------------------------------------
-Wide Horizons - Update Highlights v1.0.4
------------------------------------------
+**-----------------------------------------------------------------------**
+**Wide Horizons - Update Highlights v1.0.4**
+**-----------------------------------------------------------------------**
 
 Bug Fixes:
 
@@ -80,11 +80,11 @@ Bug Fixes:
 	Abyss zone fixed: Stars will no longer spawn inside the Abyss. The zone now also scales properly with larger sectors.
 	Hyperspace cloud generation improved: Cloud and nebula distribution has been rebalanced for larger maps, offering better navigation and more natural density.
 	Protection against invalid settings: New safety checks now prevent incorrect or illogical values (e.g. for sector size or grid setup) from breaking the game or causing performance issues.
-	
-	
------------------------------------------
-Wide Horizons - Update Highlights v1.0.5
------------------------------------------
+
+
+**-----------------------------------------------------------------------**
+**Wide Horizons - Update Highlights v1.0.5**
+**-----------------------------------------------------------------------**
 
 Improved Compatibility with Popular Mods
 Wide Horizons now detects fixed-position systems from many popular mods and repositions them correctly in the expanded sector.
