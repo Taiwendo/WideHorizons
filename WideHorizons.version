@@ -1,8 +1,18 @@
 {
-  "id": "WideHorizons",
-  "modName": "Wide Horizons",
-  "modThreadId": "33348",
-  "version": "1.0.5",
-  "downloadURL": "https://drive.google.com/uc?export=download&id=1mf3wLzXUk8PzObpXHNn4H8dAT28OR_9G",
-  "changeLog": "- Neue Systeme\n- Bugfixes\n- Performance verbessert"
+    "masterVersionFile":"https://raw.githubusercontent.com/Taiwendo/WideHorizons/refs/heads/main/WideHorizons.version",
+    "id": "WideHorizons",
+    "modName":"Wide Horizons",
+    "modThreadId":33348,
+    "modVersion":
+    {
+        "major":1,
+        "minor":0,
+        "patch":"5"
+    },
+
+        #Link towards a direct download, fetched from the online version file
+        "directDownloadURL":"https://github.com/Taiwendo/WideHorizons/blob/main/releases/Wide%20Horizons%20v1.0.5.zip",
+
+        #Link towards a directly accessible text file, which can be used to display a changelog ingame, is fetched from the online version file.
+        "changelogURL":"https://raw.githubusercontent.com/Taiwendo/WideHorizons/refs/heads/main/releases/changelog.txt",
 }
