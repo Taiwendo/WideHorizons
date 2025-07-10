@@ -114,3 +114,78 @@ Bugfix: Invalid star types
 Settings safety checks:
   - Sector width, grid size, and other values are now validated
   - Broken or extreme settings are corrected automatically
+
+Version 1.0.6 (Juli 2025)
+
+Core System Architecture Rework:
+
+Foundation Rebuilt for Large-Scale Sector Support
+  The internal structure for star system placement, registration, and alignment has been completely reworked.
+  WideHorizons now uses a centralized framework to accurately reposition systems—Vanilla and modded—alongside their content, terrain, and static entities.
+
+Content-Aware Positioning
+  Systems are no longer just moved by coordinates: all attached entities (e.g., planets, stations, derelicts) are repositioned intelligently as part of the system structure.
+  This ensures thematic consistency and visual accuracy across the entire sector.
+
+Integrated Hyperspace Coordination
+  Hyperspace terrain is now automatically adjusted around repositioned systems.
+  Clearing logic respects final system locations and is synchronized with terrain generation, preventing fog collisions or obscured entrances in large sectors.
+
+Fixed Position System Framework
+  A new utility layer handles persistent placement of star systems across game sessions.
+  Mod systems are only repositioned if they exist and are detected, ensuring safe and dynamic support for a wide range of external content.
+
+Version Checker Integration
+  WideHorizons now supports the Version Checker.
+  You’ll be notified in the main menu whenever a new version of WideHorizons is available—no more guessing or missing important updates.
+
+Fixed: Some systems (e.g. Mayasura) had misaligned stations, gates, or relays after being moved in the larger sector.
+  - This was caused by entities using fixed setLocation(...) coordinates without orbits, which did not follow the moved system center.
+  - Solution: All non-orbital system entities (e.g. gates, beacons, custom stations) are now automatically attached to their system’s star and follow correctly when the system is repositioned.
+  - Also excluded dynamic entities (like scanners, spawners or patrol anchors) from being locked to system centers, preserving intended behaviors.
+
+Bugfixes and Improvements:
+  – Fixed crash caused by mismatched tile string length
+  – Prevented abyss regions from being overwritten during refill
+  – Added tile length validation for safe terrain initialization
+  – Reduced duplicate clearing calls for better performance
+  – Added terrain auto-initialization fallback
+
+Improvements & Fixes:
+
+Hyperspace Terrain Clearing and Refilling:
+  Now the mod properly clears hyperspace nebula (“fog”) only around registered star systems and safely refills those areas on load. This prevents unwanted fog edits and improves navigation and visibility in a larger sector.
+
+System Repositioning Stability:
+  Star systems and their static entities are now consistently registered and repositioned based on saved coordinates, ensuring stable layouts after loading or sector generation. All non-orbital entities are auto-attached to the system’s star.
+
+Developer Mode Logging:
+  All internal logs are now gated behind Developer Mode. You’ll only see detailed debug output if DevMode is active, keeping the log clean during normal gameplay.
+
+Central Logging via WHDevLogger:
+  A new WHDevLogger utility handles all info, warn, and error output. It ensures consistent formatting, centralized control, and dev-mode-only output where appropriate.
+
+Bugfixes and Internal Improvements:
+  – Fixed duplicate position updates caused by redundant system re-registration
+  – Ensured proper initialization of hyperspace terrain during generation and load
+  – Improved handling of abyss tiles to prevent invalid terrain overwrite
+  – Logging now includes tile debug info (before/after) for clear diagnostics
+  – Automatically skips auto-fix of dynamic entities to preserve AI and script behavior
+
+What This Means for Players
+  – Clearer and more immersive hyperspace visuals around key systems
+  – Stable and reliable sector layout during both new game and reload
+  – Minimal log clutter unless actively debugging
+  – Improved performance and compatibility with terrain-related mods
+
+Accurate System ID Matching
+  System detection is now based on the actual Starsector-internal IDs, ensuring precise registration regardless of name capitalization or localization.
+  Mods using duplicate system names (e.g., “Acheron”) are handled cautiously to avoid conflicts.
+
+Duplicate System Protection
+  Systems with identical IDs from multiple mods (like SCY and DPL) are safely checked before repositioning.
+  Only one version is moved—whichever was actually created—preventing layout bugs or invisible systems.
+
+Mod Detection-Based Placement
+  Fixed system positioning is now fully conditional: systems are only repositioned if the corresponding mod is detected.
+  This avoids errors and maintains a clean layout for each user’s mod setup.
