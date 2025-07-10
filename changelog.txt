@@ -184,7 +184,7 @@ Accurate System ID Matching
 
 Duplicate System Protection
   Systems with identical IDs from multiple mods (like SCY and DPL) are safely checked before repositioning.
-  Only one version is moved—whichever was actually created—preventing layout bugs or invisible systems.
+  Only one version is moved - whichever was actually created - preventing layout bugs or invisible systems.
 
 Mod Detection-Based Placement
   Fixed system positioning is now fully conditional: systems are only repositioned if the corresponding mod is detected.
