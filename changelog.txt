@@ -1,191 +1,244 @@
-Version 1.0.1 (Mai 2025)
-Improved Compatibility with RAT Mod:
-  You can now choose whether to use universe generation settings from the "Random Assortment of Things" (RAT) mod or stick with Wide Horizons' own settings.
-  This is fully configurable in-game via the LunaLib mod options menu.
+Version 1.0.7 (Juli 2025)
 
-Dynamic Universe Settings - No Restart Needed:
-  Changes to galaxy size, number of star systems, gate density, and other settings are now applied immediately - no need to restart or reload.
-  Make your adjustments in LunaLib and see the effects instantly in your next new game.
+This change improves visual clarity around exotic stars and adds to the atmospheric structure of the sector.
 
-Smarter Galaxy Scaling:
-  Sector size, system count, ruins, Remnant presence, and more now scale dynamically using a centralized "WH Scale" setting.
-  This ensures consistent balance and flexibility for both small and massive universes.
+Wide Horizons Update: Nexerelin Compatibility & Game Start Warning
 
-Under-the-Hood Improvements:
-  New plugin added to manage settings initialization and dynamic updates.
-  Clean separation between RAT and Wide Horizons setting logic.
-  Improved mod compatibility by exposing key galaxy values globally.
+Improved Compatibility:
+    Wide Horizons now better supports Nexerelin and other sector-randomizing mods.
 
-  This update lays the groundwork for a more modular and customizable Wide Horizons experience.
-  Whether you prefer RAT's universe balance or Wide Horizons' handcrafted structure - now it's up to you.
+Random Sector Warning:
+    If Nexerelin’s Random Sector Mode is enabled, you’ll see a clear warning message and will be returned to the main menu.
+    Wide Horizons is only compatible with the standard (Corvus/Core) sector mode.
 
-Version 1.0.3 (Juni 2025)
-Bug Fixes:
-  - Fixed Hyperspace Map Scaling.
-    The hyperspace terrain now correctly matches the galaxy size, especially in larger sectors.
-  - No More Stars Leaking into the Abyss.
-    Fixed an issue where some star systems (especially when using RAT) would spawn too close to or inside the Abyss region of the map.
-  - Improved Compatibility with Exotic Mods.
-    Previously, certain modded stars (e.g. from Bultach Coalition) caused crashes due to missing or unsupported star data.
-    Wide Horizons now includes a fallback system to handle these cases gracefully - and logs helpful messages if something unusual is detected.
-  - Crash Fixes for Extreme Settings.
-    Fixed crashes that could occur when generating very large galaxies or using unrealistic system size values.
-  - Savegame-Safety Improvements.
-    Additional compatibility work was done to reduce the risk of corrupted savegames when using other large content mods alongside Wide Horizons.
+Prevents Broken Starts:
+    This prevents issues with overlapping or misplaced systems and ensures a smoother gameplay experience.
 
-New Content & Features:
-  - Upgraded Hyperspace Generation.
-    Visuals and layout of the hyperspace layer are now more immersive and better scaled for expanded galaxies.
-  - Bigger Star Systems.
-    Systems can now be generated with more planets and expanded layouts - offering a greater sense of scale.
-  - Mysterious Dark Star Systems.
-    A new type of system with unique effects and dark cosmic themes has been introduced. Can you find them?
-  - Refined Galaxy Layout.
-    Adjusted system placement, scaling, and distribution - laying the foundation for upcoming content and themes.
+Hyperspace Visuals Updated
 
-Note:
-  Wide Horizons is still in active development - feedback and crash reports are appreciated!
-  Make sure you use the LunaLib in-game menu to customize your universe size, content density, and system behavior.
+    The galactic hyperspace nebula has been reworked for a more natural look:
+        Nebula density now gradually fades toward the outer edges of the sector.
+        The core region remains rich with spiral nebula patterns.
+        Top and bottom edges thin out slightly earlier for better visibility.
+        The lower-left region has been subtly enhanced to avoid overly empty space.
 
-Version 1.0.4 (Juli 2025)
-Bug Fixes:
-  - Auto mode reworked: Wide Horizons is now fully compatible with RAT in Auto mode.
-    You now get both contents combined - RAT's sector logic plus all unique systems and features from Wide Horizons.
-  - Abyss zone fixed: Stars will no longer spawn inside the Abyss.
-    The zone now also scales properly with larger sectors.
-  - Hyperspace cloud generation improved:
-    Cloud and nebula distribution has been rebalanced for larger maps, offering better navigation and more natural density.
-  - Protection against invalid settings:
-    New safety checks now prevent incorrect or illogical values (e.g. for sector size or grid setup) from breaking the game or causing performance issues.
+    Result: A more immersive and balanced galaxy, with smooth transitions from dense center to outer space.
 
-Version 1.0.5 (Juli 2025)
-Improved Compatibility with Popular Mods:
-  Wide Horizons now detects fixed-position systems from many popular mods and repositions them correctly in the expanded sector.
+More Natural Nebula Distribution
+    Star systems with black holes or neutron stars will now no longer generate systemwide nebula.
+    Their adjacent systems are also automatically cleared of nebula to create a more natural and coherent region.
 
-    - Better placement in the enlarged galaxy
-    - No more off-map or clipped systems
-    - A cleaner and more immersive sector map
-
-Supported mods & systems:
-  Jaydee Piracy: Dory, Grin, Hiroc
-  UAF: Aoi, Caeli, Stjarna, Tarandi, Xenenhu
-  Volantian Reclamation Initiative
-  Valkyrian: Enigma
-  TTSC (Tri-Tachyon Special Circumstances): Vanilla systems automatically adapted
-  Traverser Design Bureau: Indulge
-  Tahlan Shipworks: Rubicon, Lethia
-  Sephira Conclave: Qliphoth
-  Secrets of the Frontier: Mia
-  SCY Nation: Acheron
-  ScalarTech Solutions: Spindle
-  P9 Colony Group: Tolp
-  Nightcross Armory: Pascal
-  Neutrino (SLEEPYFISH Edition): Corona Australis
-  Kyeltziv Technocracy: Koltsevaya
-  Knights of Ludd: Crusader's Wake
-  Hazard Mining Inc.: Mansa, Opuntia, Obsidian, Kamikaze, Mercy, Seele
-  Halo Dynamics: Intrusion
-  Gensoukyou Manufacture: Gensokyo
-  Machina Void Shipyards: Osmium
-  Domain Phase Lab: Acheron, Capella, Helheim, Proving Ground, Voidbreak
-  Dassault-Mikoyan Engineering: Hejaz, Nikolaev
-  Diable Avionics: Outer Terminus, Staging Area, FOB
-  Everybody loves KoC: Eridani, KoC, Bhilai, MaybeGoogle
-
-Additional Improvements:
-  - Systems no longer drift or spawn late
-  - Mods that modify vanilla systems (like TTSC) are fully supported
-  - Hyperspace spiral shape refined and more centered
-
-Abyss adjustments:
-  - Star systems no longer spawn inside the Abyss
-  - Abyss region now scales with sector size
-
-Hyperspace cloud improvements:
-  - More visible paths across large maps
-  - Natural cloud distribution for better immersion
-
-Note: These changes apply only to new savegames, since hyperspace is generated on game start. It's a visual improvement - gameplay is unaffected.
-
-Bugfix: Invalid star types
-  - Mods using non-standard star types (e.g., star_purple) previously caused crashes during system expansion.
-  - Wide Horizons now replaces invalid stars with compatible types, or safely skips affected systems with proper logging.
-
-Settings safety checks:
-  - Sector width, grid size, and other values are now validated
-  - Broken or extreme settings are corrected automatically
+Fixed:
+    Systems from "Detected Machina Void Shipyards" are now generated and positioned correctly in the sector.
+    Several HMI star systems (Opuntia, Kamikaze, Mercy, Obsidian) were not appearing at the correct locations in the sector map.
+    Their positions now match the intended layout, just like in vanilla and other supported mods.
 
 Version 1.0.6 (Juli 2025)
 
 Core System Architecture Rework:
 
 Foundation Rebuilt for Large-Scale Sector Support
-  The internal structure for star system placement, registration, and alignment has been completely reworked.
-  WideHorizons now uses a centralized framework to accurately reposition systems—Vanilla and modded—alongside their content, terrain, and static entities.
+    The internal structure for star system placement, registration, and alignment has been completely reworked.
+    WideHorizons now uses a centralized framework to accurately reposition systems—Vanilla and modded—alongside their content, terrain, and static entities.
 
 Content-Aware Positioning
-  Systems are no longer just moved by coordinates: all attached entities (e.g., planets, stations, derelicts) are repositioned intelligently as part of the system structure.
-  This ensures thematic consistency and visual accuracy across the entire sector.
+    Systems are no longer just moved by coordinates: all attached entities (e.g., planets, stations, derelicts) are repositioned intelligently as part of the system structure.
+    This ensures thematic consistency and visual accuracy across the entire sector.
 
 Integrated Hyperspace Coordination
-  Hyperspace terrain is now automatically adjusted around repositioned systems.
-  Clearing logic respects final system locations and is synchronized with terrain generation, preventing fog collisions or obscured entrances in large sectors.
+    Hyperspace terrain is now automatically adjusted around repositioned systems.
+    Clearing logic respects final system locations and is synchronized with terrain generation, preventing fog collisions or obscured entrances in large sectors.
 
 Fixed Position System Framework
-  A new utility layer handles persistent placement of star systems across game sessions.
-  Mod systems are only repositioned if they exist and are detected, ensuring safe and dynamic support for a wide range of external content.
+    A new utility layer handles persistent placement of star systems across game sessions.
+    Mod systems are only repositioned if they exist and are detected, ensuring safe and dynamic support for a wide range of external content.
 
 Version Checker Integration
-  WideHorizons now supports the Version Checker.
-  You’ll be notified in the main menu whenever a new version of WideHorizons is available—no more guessing or missing important updates.
+    WideHorizons now supports the Version Checker.
+    You’ll be notified in the main menu whenever a new version of WideHorizons is available—no more guessing or missing important updates.
 
-Fixed: Some systems (e.g. Mayasura) had misaligned stations, gates, or relays after being moved in the larger sector.
-  - This was caused by entities using fixed setLocation(...) coordinates without orbits, which did not follow the moved system center.
-  - Solution: All non-orbital system entities (e.g. gates, beacons, custom stations) are now automatically attached to their system’s star and follow correctly when the system is repositioned.
-  - Also excluded dynamic entities (like scanners, spawners or patrol anchors) from being locked to system centers, preserving intended behaviors.
+Fixed:
+    Some systems (e.g. Mayasura) had misaligned stations, gates, or relays after being moved in the larger sector.
+    This was caused by entities using fixed setLocation(...) coordinates without orbits, which did not follow the moved system center.
+    Solution: All non-orbital system entities (e.g. gates, beacons, custom stations) are now automatically attached to their system’s star and follow correctly when the system is repositioned.
+    Also excluded dynamic entities (like scanners, spawners or patrol anchors) from being locked to system centers, preserving intended behaviors.
 
 Bugfixes and Improvements:
-  – Fixed crash caused by mismatched tile string length
-  – Prevented abyss regions from being overwritten during refill
-  – Added tile length validation for safe terrain initialization
-  – Reduced duplicate clearing calls for better performance
-  – Added terrain auto-initialization fallback
+– Fixed crash caused by mismatched tile string length
+– Prevented abyss regions from being overwritten during refill
+– Added tile length validation for safe terrain initialization
+– Reduced duplicate clearing calls for better performance
+– Added terrain auto-initialization fallback
 
 Improvements & Fixes:
 
 Hyperspace Terrain Clearing and Refilling:
-  Now the mod properly clears hyperspace nebula (“fog”) only around registered star systems and safely refills those areas on load. This prevents unwanted fog edits and improves navigation and visibility in a larger sector.
+    Now the mod properly clears hyperspace nebula (“fog”) only around registered star systems and safely refills those areas on load. This prevents unwanted fog edits and improves navigation and visibility in a larger sector.
 
 System Repositioning Stability:
-  Star systems and their static entities are now consistently registered and repositioned based on saved coordinates, ensuring stable layouts after loading or sector generation. All non-orbital entities are auto-attached to the system’s star.
+    Star systems and their static entities are now consistently registered and repositioned based on saved coordinates, ensuring stable layouts after loading or sector generation. All non-orbital entities are auto-attached to the system’s star.
 
 Developer Mode Logging:
-  All internal logs are now gated behind Developer Mode. You’ll only see detailed debug output if DevMode is active, keeping the log clean during normal gameplay.
+    All internal logs are now gated behind Developer Mode. You’ll only see detailed debug output if DevMode is active, keeping the log clean during normal gameplay.
 
 Central Logging via WHDevLogger:
-  A new WHDevLogger utility handles all info, warn, and error output. It ensures consistent formatting, centralized control, and dev-mode-only output where appropriate.
+    A new WHDevLogger utility handles all info, warn, and error output. It ensures consistent formatting, centralized control, and dev-mode-only output where appropriate.
 
 Bugfixes and Internal Improvements:
-  – Fixed duplicate position updates caused by redundant system re-registration
-  – Ensured proper initialization of hyperspace terrain during generation and load
-  – Improved handling of abyss tiles to prevent invalid terrain overwrite
-  – Logging now includes tile debug info (before/after) for clear diagnostics
-  – Automatically skips auto-fix of dynamic entities to preserve AI and script behavior
+– Fixed duplicate position updates caused by redundant system re-registration
+– Ensured proper initialization of hyperspace terrain during generation and load
+– Improved handling of abyss tiles to prevent invalid terrain overwrite
+– Logging now includes tile debug info (before/after) for clear diagnostics
+– Automatically skips auto-fix of dynamic entities to preserve AI and script behavior
 
 What This Means for Players
-  – Clearer and more immersive hyperspace visuals around key systems
-  – Stable and reliable sector layout during both new game and reload
-  – Minimal log clutter unless actively debugging
-  – Improved performance and compatibility with terrain-related mods
+– Clearer and more immersive hyperspace visuals around key systems
+– Stable and reliable sector layout during both new game and reload
+– Minimal log clutter unless actively debugging
+– Improved performance and compatibility with terrain-related mods
 
 Accurate System ID Matching
-  System detection is now based on the actual Starsector-internal IDs, ensuring precise registration regardless of name capitalization or localization.
-  Mods using duplicate system names (e.g., “Acheron”) are handled cautiously to avoid conflicts.
+    System detection is now based on the actual Starsector-internal IDs, ensuring precise registration regardless of name capitalization or localization.
+    Mods using duplicate system names (e.g., “Acheron”) are handled cautiously to avoid conflicts.
 
 Duplicate System Protection
-  Systems with identical IDs from multiple mods (like SCY and DPL) are safely checked before repositioning.
-  Only one version is moved - whichever was actually created - preventing layout bugs or invisible systems.
+    Systems with identical IDs from multiple mods (like SCY and DPL) are safely checked before repositioning.
+    Only one version is moved - whichever was actually created - preventing layout bugs or invisible systems.
 
 Mod Detection-Based Placement
-  Fixed system positioning is now fully conditional: systems are only repositioned if the corresponding mod is detected.
-  This avoids errors and maintains a clean layout for each user’s mod setup.
+    Fixed system positioning is now fully conditional: systems are only repositioned if the corresponding mod is detected.
+    This avoids errors and maintains a clean layout for each user’s mod setup.
+
+Version 1.0.5 (Juli 2025)
+
+Improved Compatibility with Popular Mods:
+
+    Wide Horizons now detects fixed-position systems from many popular mods and repositions them correctly in the expanded sector.
+        Better placement in the enlarged galaxy
+        No more off-map or clipped systems
+        A cleaner and more immersive sector map
+
+Supported mods & systems:
+Jaydee Piracy: Dory, Grin, Hiroc
+UAF: Aoi, Caeli, Stjarna, Tarandi, Xenenhu
+Volantian Reclamation Initiative
+Valkyrian: Enigma
+TTSC (Tri-Tachyon Special Circumstances): Vanilla systems automatically adapted
+Traverser Design Bureau: Indulge
+Tahlan Shipworks: Rubicon, Lethia
+Sephira Conclave: Qliphoth
+Secrets of the Frontier: Mia
+SCY Nation: Acheron
+ScalarTech Solutions: Spindle
+P9 Colony Group: Tolp
+Nightcross Armory: Pascal
+Neutrino (SLEEPYFISH Edition): Corona Australis
+Kyeltziv Technocracy: Koltsevaya
+Knights of Ludd: Crusader's Wake
+Hazard Mining Inc.: Mansa, Opuntia, Obsidian, Kamikaze, Mercy, Seele
+Halo Dynamics: Intrusion
+Gensoukyou Manufacture: Gensokyo
+Machina Void Shipyards: Osmium
+Domain Phase Lab: Acheron, Capella, Helheim, Proving Ground, Voidbreak
+Dassault-Mikoyan Engineering: Hejaz, Nikolaev
+Diable Avionics: Outer Terminus, Staging Area, FOB
+Everybody loves KoC: Eridani, KoC, Bhilai, MaybeGoogle
+
+Additional Improvements:
+    Systems no longer drift or spawn late
+    Mods that modify vanilla systems (like TTSC) are fully supported
+    Hyperspace spiral shape refined and more centered
+
+Abyss adjustments:
+    Star systems no longer spawn inside the Abyss
+    Abyss region now scales with sector size
+
+Hyperspace cloud improvements:
+    More visible paths across large maps
+    Natural cloud distribution for better immersion
+
+Note: These changes apply only to new savegames, since hyperspace is generated on game start. It's a visual improvement - gameplay is unaffected.
+
+Bugfix: Invalid star types
+    Mods using non-standard star types (e.g., star_purple) previously caused crashes during system expansion.
+    Wide Horizons now replaces invalid stars with compatible types, or safely skips affected systems with proper logging.
+
+Settings safety checks:
+    Sector width, grid size, and other values are now validated
+    Broken or extreme settings are corrected automatically
+
+Version 1.0.4 (Juli 2025)
+
+Bug Fixes:
+
+    Auto mode reworked: Wide Horizons is now fully compatible with RAT in Auto mode.
+    You now get both contents combined - RAT's sector logic plus all unique systems and features from Wide Horizons.
+
+    Abyss zone fixed: Stars will no longer spawn inside the Abyss.
+    The zone now also scales properly with larger sectors.
+
+    Hyperspace cloud generation improved:
+    Cloud and nebula distribution has been rebalanced for larger maps, offering better navigation and more natural density.
+
+    Protection against invalid settings:
+    New safety checks now prevent incorrect or illogical values (e.g. for sector size or grid setup) from breaking the game or causing performance issues.
+
+Version 1.0.3 (Juni 2025)
+
+Bug Fixes:
+
+    Fixed Hyperspace Map Scaling.
+    The hyperspace terrain now correctly matches the galaxy size, especially in larger sectors.
+
+    No More Stars Leaking into the Abyss.
+    Fixed an issue where some star systems (especially when using RAT) would spawn too close to or inside the Abyss region of the map.
+
+    Improved Compatibility with Exotic Mods.
+    Previously, certain modded stars (e.g. from Bultach Coalition) caused crashes due to missing or unsupported star data.
+    Wide Horizons now includes a fallback system to handle these cases gracefully - and logs helpful messages if something unusual is detected.
+
+    Crash Fixes for Extreme Settings.
+    Fixed crashes that could occur when generating very large galaxies or using unrealistic system size values.
+
+    Savegame-Safety Improvements.
+    Additional compatibility work was done to reduce the risk of corrupted savegames when using other large content mods alongside Wide Horizons.
+
+New Content & Features:
+
+    Upgraded Hyperspace Generation.
+    Visuals and layout of the hyperspace layer are now more immersive and better scaled for expanded galaxies.
+
+    Bigger Star Systems.
+    Systems can now be generated with more planets and expanded layouts - offering a greater sense of scale.
+
+    Mysterious Dark Star Systems.
+    A new type of system with unique effects and dark cosmic themes has been introduced. Can you find them?
+
+    Refined Galaxy Layout.
+    Adjusted system placement, scaling, and distribution - laying the foundation for upcoming content and themes.
+
+Note:
+Wide Horizons is still in active development - feedback and crash reports are appreciated!
+Make sure you use the LunaLib in-game menu to customize your universe size, content density, and system behavior.
+
+Version 1.0.1 (Mai 2025)
+
+Improved Compatibility with RAT Mod:
+    You can now choose whether to use universe generation settings from the "Random Assortment of Things" (RAT) mod or stick with Wide Horizons' own settings.
+    This is fully configurable in-game via the LunaLib mod options menu.
+
+Dynamic Universe Settings - No Restart Needed:
+    Changes to galaxy size, number of star systems, gate density, and other settings are now applied immediately - no need to restart or reload.
+    Make your adjustments in LunaLib and see the effects instantly in your next new game.
+
+Smarter Galaxy Scaling:
+    Sector size, system count, ruins, Remnant presence, and more now scale dynamically using a centralized "WH Scale" setting.
+    This ensures consistent balance and flexibility for both small and massive universes.
+
+Under-the-Hood Improvements:
+    New plugin added to manage settings initialization and dynamic updates.
+    Clean separation between RAT and Wide Horizons setting logic.
+    Improved mod compatibility by exposing key galaxy values globally.
+
+This update lays the groundwork for a more modular and customizable Wide Horizons experience.
+Whether you prefer RAT's universe balance or Wide Horizons' handcrafted structure - now it's up to you.
