@@ -1,3 +1,58 @@
+Version 1.1.0 (Juli 2025)
+
+Important Note - New Save Required!
+    Due to core changes to sector generation and terrain, this update is NOT compatible with existing saves.
+    You MUST start a new game for everything to work correctly!
+    Old saves may lead to missing systems, crashes, or mod errors.
+
+New Feature:
+    Automatic Core World Scaling
+    Core systems like Corvus and Askonia now scale automatically with the rest of the sector
+    when the “Core World Scaling” option is set to “Auto” in LunaSettings.
+    You can also choose fixed values like 150%, 200%, etc., or keep the Vanilla size if preferred.
+
+Bugfix:
+    The vanilla Limbo system and the GateHauler mission now spawn correctly and no longer appear multiple times.
+    (Abyss detection and tagging now work just like in unmodded Starsector.)
+    Some special systems (e.g. HMI Manchester, Lost Sector Enigma) were not repositioned properly. Now tracked correctly.
+
+Sector Terrain:
+    The new, expanded hyperspace terrain is now technically based on Starsector’s original system.
+    This ensures full compatibility with other mods like Nexerelin and RAT, even on large sector maps.
+
+Stability:
+    Improved loading times and fewer errors when starting a new game.
+
+Accessibility Scaling Fix:
+    Colony accessibility is now adjusted for larger sectors.
+    In vanilla, colonies far from the center of the map get -1 accessibility, breaking trade and supply.
+    With this update, accessibility now scales with sector size, so distant colonies stay connected.
+
+        Example: On a 2× sector, the limit increases from 50 to 80 light-years.
+
+    Fringe colonies are still harder to support — but no longer isolated.
+
+Improved:
+    Core Worlds can now be scaled independently from the rest of the sector (optional setting).
+
+Extended:
+    Maximum sector size and constellation size limits raised. Manual input allowed for extreme values.
+
+Clarified:
+    Mothership description updated to avoid confusion with modded alien content.
+
+What this means for players:
+    No more duplicate or missing star systems when starting new games.
+    All vanilla and mod-added systems (like Limbo) appear where they are supposed to.
+    Other mods that interact with hyperspace now work smoothly with Wide Horizons.
+    Future terrain and effect features will be easier to add and remain stable.
+
+Other:
+    Numerous internal improvements to terrain detection, sector coordinates, and system placement.
+    Most of these changes are “under the hood” and result in better stability and mod compatibility.
+
+If you encounter issues with specific mods or missions after this update, please let us know on the forums or Discord at Taiwendo!
+
 Version 1.0.7 (Juli 2025)
 
 This change improves visual clarity around exotic stars and adds to the atmospheric structure of the sector.
