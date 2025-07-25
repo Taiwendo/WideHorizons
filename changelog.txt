@@ -1,3 +1,14 @@
+Version 1.1.1 (Juli 2025)
+
+Improved:
+    New MOD systems are supported.
+    
+Bugfix:
+    Some systems have been fixed with the position.
+
+Info:
+    If you have systems from MODs that are not yet scaled correctly, please let me know which MOD and which system.
+
 Version 1.1.0 (Juli 2025)
 
 Important Note - New Save Required!
