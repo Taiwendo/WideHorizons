@@ -1,3 +1,16 @@
+Version 1.1.2 (Juli 2025)
+
+New adjustments:
+    New mod systems have been added.
+    A complete list of supported mod systems can be found in the forum in the main post.
+
+Bug fix:
+    Some systems have been adjusted from their position as they were incorrect.
+    Some random systems have been adjusted.
+
+Info:
+    If you have systems from MODs that are not yet scaled correctly, please let me know which MOD and which system.
+
 Version 1.1.1 (Juli 2025)
 
 Improved:
