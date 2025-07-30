@@ -6,13 +6,13 @@ New content:
 
 World Generation Update:
     The game now chooses different types of hidden content (like ruins, derelicts, and Remnants) based on your selected sector generation mode:
-        If you're using Auto or WideHorizons mode → you'll get the custom WideHorizons content
-        If you select RAT mode → only RAT content will appear
+        If you're using Auto or WideHorizons mode you'll get the custom WideHorizons content
+        If you select RAT mode only RAT content will appear
 
     This makes sure the hidden parts of the galaxy match the style of the sector you picked
 
 Fixed:
-    The in-faction accessibility bonus (accessibilitySameFactionBonus) is now properly applied to AI-created colonies (e.g., in Vayra's Sector or Nexerelin).
+    The in-faction accessibility bonus (accessibilitySameFactionBonus) is now properly applied to AI-created colonies (e.g. in Vayra's Sector or Nexerelin).
     This ensures that new colonies from the same faction receive the intended accessibility boost for shared imports.
 
     Fixed an issue where the Spindle system from ScalarTech was incorrectly positioned when using Wide Horizons.
