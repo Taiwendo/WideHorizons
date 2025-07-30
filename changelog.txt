@@ -11,6 +11,11 @@ World Generation Update:
 
     This makes sure the hidden parts of the galaxy match the style of the sector you picked
 
+    Added new mod systems
+        Kyeltziv Technocracy
+        HMI Supervillains
+        Foundation Of Borken
+
 Fixed:
     The in-faction accessibility bonus (accessibilitySameFactionBonus) is now properly applied to AI-created colonies (e.g. in Vayra's Sector or Nexerelin).
     This ensures that new colonies from the same faction receive the intended accessibility boost for shared imports.
