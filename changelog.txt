@@ -35,7 +35,7 @@ System Descriptions Update:
     Descriptions appear when hovering over the system or when viewing it in the Codex.
     These changes are purely cosmetic and do not affect gameplay or system content - just world flavor and immersion.
 
-Version 1.1.3 (Juli 2025)
+Version 1.1.3 (July 2025)
 
 New content:
     New custom start story introduction when starting as a UAF prototype fleet.
@@ -63,7 +63,7 @@ Fixed:
 Info:
     If you have systems from MODs that are not yet scaled correctly, please let me know which MOD and which system.
 
-Version 1.1.2 (Juli 2025)
+Version 1.1.2 (July 2025)
 
 New adjustments:
     New mod systems have been added.
@@ -76,18 +76,18 @@ Bug fix:
 Info:
     If you have systems from MODs that are not yet scaled correctly, please let me know which MOD and which system.
 
-Version 1.1.1 (Juli 2025)
+Version 1.1.1 (July 2025)
 
 Improved:
     New MOD systems are supported.
-    
+
 Bugfix:
     Some systems have been fixed with the position.
 
 Info:
     If you have systems from MODs that are not yet scaled correctly, please let me know which MOD and which system.
 
-Version 1.1.0 (Juli 2025)
+Version 1.1.0 (July 2025)
 
 Important Note - New Save Required!
     Due to core changes to sector generation and terrain, this update is NOT compatible with existing saves.
@@ -142,7 +142,7 @@ Other:
 
 If you encounter issues with specific mods or missions after this update, please let us know on the forums or Discord at Taiwendo!
 
-Version 1.0.7 (Juli 2025)
+Version 1.0.7 (July 2025)
 
 This change improves visual clarity around exotic stars and adds to the atmospheric structure of the sector.
 
@@ -177,7 +177,7 @@ Fixed:
     Several HMI star systems (Opuntia, Kamikaze, Mercy, Obsidian) were not appearing at the correct locations in the sector map.
     Their positions now match the intended layout, just like in vanilla and other supported mods.
 
-Version 1.0.6 (Juli 2025)
+Version 1.0.6 (July 2025)
 
 Core System Architecture Rework:
 
@@ -253,7 +253,7 @@ Mod Detection-Based Placement
     Fixed system positioning is now fully conditional: systems are only repositioned if the corresponding mod is detected.
     This avoids errors and maintains a clean layout for each user’s mod setup.
 
-Version 1.0.5 (Juli 2025)
+Version 1.0.5 (July 2025)
 
 Improved Compatibility with Popular Mods:
 
@@ -311,7 +311,7 @@ Settings safety checks:
     Sector width, grid size, and other values are now validated
     Broken or extreme settings are corrected automatically
 
-Version 1.0.4 (Juli 2025)
+Version 1.0.4 (July 2025)
 
 Bug Fixes:
 
@@ -327,7 +327,7 @@ Bug Fixes:
     Protection against invalid settings:
     New safety checks now prevent incorrect or illogical values (e.g. for sector size or grid setup) from breaking the game or causing performance issues.
 
-Version 1.0.3 (Juni 2025)
+Version 1.0.3 (June 2025)
 
 Bug Fixes:
 
@@ -365,7 +365,7 @@ Note:
 Wide Horizons is still in active development - feedback and crash reports are appreciated!
 Make sure you use the LunaLib in-game menu to customize your universe size, content density, and system behavior.
 
-Version 1.0.1 (Mai 2025)
+Version 1.0.1 (May 2025)
 
 Improved Compatibility with RAT Mod:
     You can now choose whether to use universe generation settings from the "Random Assortment of Things" (RAT) mod or stick with Wide Horizons' own settings.
