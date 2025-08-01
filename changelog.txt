@@ -1,3 +1,12 @@
+Version 1.1.4hotfix (August 2025)
+
+Hotfix: Planet & Star Descriptions:
+    Changes:
+        All procedurally generated systems (Hegemony, Luddic Church, Independent, Persean League, Tri-Tachyon) now assign proper planet and star descriptions.
+        Each planet, moon, and star now uses lore-friendly tooltips similar to vanilla behavior.
+    Resolved issue where unexplored planets or stars showed "No description available".
+    Tooltip names now match actual planet names, improving immersion and consistency.
+
 Version 1.1.4 (August 2025)
 
 Wide Horizons now supports Customizable Star Systems (CSS) natively:
