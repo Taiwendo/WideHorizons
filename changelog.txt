@@ -1,3 +1,40 @@
+Version 1.1.4 (August 2025)
+
+Wide Horizons now supports Customizable Star Systems (CSS) natively:
+    If you use Customizable Star Systems, Wide Horizons will automatically detect and scale any custom systems you define.
+    Systems are matched using either:
+        the star’s "name" (first star entity in your JSON)
+        or the coordinates provided in "setLocation": [x, y]
+    No config changes are needed on your part - it just works™.
+Note: Systems without a name and without setLocation can’t be detected. To ensure proper support, please include at least one of those fields.
+
+System Position Fixes:
+    The following star systems were slightly repositioned to better fit the sector layout:
+        Pascal - adjusted position
+        Osmium - fixed incorrect spawn location
+        Vanadium - aligned with intended coordinates
+    These changes improve map consistency and system placement.
+
+System Name Overhaul:
+    We've updated and refined system names across several factions to improve immersion, uniqueness, and compatibility with Starsector's universe. Here's what changed:
+    All system names are now completely unique - no more overlaps with Vanilla Starsector systems.
+    Faction-specific naming themes improved:
+        Persean League systems now follow a classical, Mediterranean-inspired style.
+        Tri-Tachyon systems use sleek, high-tech names with a synthetic, futuristic tone.
+        Luddic Church systems embrace a religious and spiritual naming theme with biblical undertones.
+        Independents feature diverse and neutral names that reflect their free and decentralized nature.
+        Hegemony systems are now named with strong, militaristic titles befitting their authoritarian character.
+    For the Vanilla extension systems.
+
+System Descriptions Update:
+
+    Added unique lore-based descriptions for all custom star systems introduced by Wide Horizons.
+    No more “No description… yet” placeholders every major system now features immersive background text in the tooltip and Intel Codex.
+    Systems such as Doria, Alecto, Eidyn, Kazeron, Eventide, Vellian, Sarnor,
+    and both Void and Pulse Dark Star systems now include detailed flavor reflecting their theme and role in the sector.
+    Descriptions appear when hovering over the system or when viewing it in the Codex.
+    These changes are purely cosmetic and do not affect gameplay or system content - just world flavor and immersion.
+
 Version 1.1.3 (Juli 2025)
 
 New content:
