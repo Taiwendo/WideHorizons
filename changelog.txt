@@ -4,7 +4,7 @@ Important - Not Save-Compatible
 This version changes world generation and hyperspace terrain. Existing saves may fail to load or exhibit missing systems/visual glitches.
 Recommended: Remove the old version, install the update, and start a new game. If you want to finish a current run, stay on the previous release.
 
-Wide Horizons – Discovery & Slipstream Settings:
+Wide Horizons - Discovery & Slipstream Settings:
     Highlights
         Simple On/Off toggles: All Discovery options now use clear Off/On switches in LunaLib.
         Discovery truly optional: Turning Discovery = Off immediately restores visibility of all procgen systems (no more “empty map” if you switch it off).
