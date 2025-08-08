@@ -7,7 +7,7 @@ Recommended: Remove the old version, install the update, and start a new game. I
 Wide Horizons - Discovery & Slipstream Settings:
     Highlights
         Simple On/Off toggles: All Discovery options now use clear Off/On switches in LunaLib.
-        Discovery truly optional: Turning Discovery = Off immediately restores visibility of all procgen systems (no more “empty map” if you switch it off).
+        Discovery truly optional: Turning Discovery = Off immediately restores visibility of all procgen systems (no more "empty map" if you switch it off).
         Slipstreams toggle: New Disable Slipstreams = Off/On. When On, vanilla slipstreams are suppressed.
 
     Discovery (new options)
