@@ -1,3 +1,72 @@
+Version 1.2.0 (August 2025)
+
+Wide Horizons – Discovery & Slipstream Settings:
+    Highlights
+        Simple On/Off toggles: All Discovery options now use clear Off/On switches in LunaLib.
+        Discovery truly optional: Turning Discovery = Off immediately restores visibility of all procgen systems (no more “empty map” if you switch it off).
+        Slipstreams toggle: New Disable Slipstreams = Off/On. When On, vanilla slipstreams are suppressed.
+
+    Discovery (new options)
+        Enable Discovery (Off/On): Master switch for the feature.
+        Hide Procgen Systems (Off/On): Generated systems stay hidden until their hyperspace jump anchor is found.
+        Discovery Radius: 0 = use normal sensor visibility; >0 = fixed detection range.
+        Check Interval (Min/Max): Performance tuning for how often discovery checks run.
+        Jump Anchor Sensor Profile: Higher = anchors are easier to spot on sensors.
+        Discovery XP: XP gained when discovering something (set to 0 to disable).
+        Show “Discovered” Message (Off/On): Toggle the small pop-up.
+        Discover in Hyperspace / Inside Systems (Off/On): Where discovery runs.
+        Only Procgen Systems (Off/On): Keep hand-placed systems vanilla.
+        Beacons Create Intel (Off/On): Auto-add intel when discovering warning beacons.
+
+    Defaults
+        Discovery is Off by default.
+        Hide Procgen Systems is On (effective only if Discovery is On).
+        Slipstreams are enabled by default (Disable Slipstreams = Off).
+
+Where to change this
+    In-game: Settings from Wide Horizons in Discovery.
+
+Compatibility
+    Safe to toggle mid-save. Settings apply instantly; visibility and scripts update on the fly.
+
+Patch Notes - Slipstream Control Update
+    New Option: You can now disable all slipstreams via mod settings (LunaLib).
+    Improved Compatibility: This is fully compatible with both vanilla and modded games.
+Look for the Disable Slipstreams toggle in the Galaxy Settings tab!
+
+Strange Hyperspace (WIP)
+    New: Added Strange Hyperspace a revamped hyperspace with distinct purple/blue regions and tweaked storm/deep-cloud behavior.
+    Toggleable: You can turn it On/Off in Settings from WideHorizons in Strange Hyperspace. (Default: On)
+    When Off: Hyperspace reverts to the classic (blue) look & vanilla-like behavior.
+
+Heads-up
+    WIP: Balancing, visuals, and effects are still in progress. Expect updates soon with new effects and new content tied to Strange Hyperspace.
+    Applying changes: For the cleanest result after switching On/Off, reload your save or start a new game (some visuals don’t fully swap mid-session).
+
+Known (for now)
+    Mid-session toggles may not recolor existing clouds immediately.
+
+Wide Horizons Update - ProcGen & Settings Overhaul:
+    RAT Integration Removed
+        Wide Horizons always uses its own procedural generation, even if the RAT mod is active.
+    Simplified Settings
+        The mod now automatically scales all world generation values based on your selected Galaxy Size (e.g., 150%, 200%).
+        Most users only need to change this one setting everything else adjusts automatically.
+    Smarter Auto Scaling
+        Settings like constellation count, gate placement, and Cryosleeper number will now scale properly when left on Auto.
+
+New Tabs & Organization:
+    Settings have been reorganized into categories like:
+    Galaxy, System Generation, Gates & Travel, Advanced
+    Easier to navigate, easier to understand!
+
+System Expansion Fixes & Improvements:
+    Improved how existing star systems are expanded with additional planets.
+    Fixed a rare crash when a system used an unknown or invalid star type.
+    If a star cannot be recognized, a valid fallback type is now automatically used.
+    More robust support for systems from other mods - including old saves and removed content.
+    This ensures better stability and more variety across the sector.
+
 Version 1.1.4hotfix (August 2025)
 
 Hotfix - Planet & Star Descriptions:
