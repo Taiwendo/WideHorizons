@@ -1,3 +1,28 @@
+Version 1.2.2 (August 2025)
+
+Discovery & Stability Update
+    New option - Hide uninhabited systems: When enabled, only uninhabited (incl. modded/non-procgen) systems are hidden until you discover them.
+        Inhabited/core systems remain on the map.
+    Crash fixes: Resolved errors from missing LunaLib settings and rare star-type issues during world gen.
+
+New:
+    Disable Hyperspace Storms option.
+    Turns off storm penalties & lightning strikes and hides storm visuals/sounds.
+    Regular deep hyperspace clouds still render (for navigation vibes).
+    Only the storm effects and VFX/SFX are removed.
+
+Performance:
+    Clean implementation without per-frame overhead - no FPS drops.
+    Toggle-friendly: Can be switched mid-save. (If another mod also edits hyperspace visuals, results may vary.)
+
+Fixed a rare crash during new-game generation caused by certain modded star types (e.g. “Helia”, “black_hole_secret”).
+    Systems with unsupported star types are now safely skipped during expansion instead of causing a crash.
+    Improved stability when adding extra planets/moons to vanilla systems.
+    Removed a step that could conflict with some star specs, reducing edge-case errors.
+    Added graceful fallback: if expansion fails, the game retries with fewer bodies instead of erroring out.
+    No visual changes to modded stars; their systems remain as intended by their mods.
+    Existing saves are unaffected. Start a new game to see the expansion with this fix.
+
 Version 1.2.1 (August 2025)
 
 Hotfix (systems expansion & settings)
