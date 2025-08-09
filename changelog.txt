@@ -1,3 +1,15 @@
+Version 1.2.1 (August 2025)
+
+Hotfix (systems expansion & settings)
+    Crash fix on New Game: Resolved a rare crash caused by exotic star types from other mods. We no longer touch or replace stars;
+    expansion now safely proceeds using neutral star data when needed.
+    Better mod compatibility: Stars added by other mods are never replaced. Wide Horizons only adds extra planets/moons to existing systems.
+    Stable system expansion: Removed risky calls on stars and improved error handling. If something fails, the mod retries with smaller batches instead of breaking.
+    Settings toggles fixed: Discovery options now use ON/OFF correctly and won’t spam the log with missing-value errors.
+    Cleaner logs: Reduced warning noise; important messages remain.
+
+Note: Effects apply to new games (world generation). Existing saves are unchanged.
+
 Version 1.2.0 (August 2025)
 
 Important - Not Save-Compatible
