@@ -1,3 +1,8 @@
+Version 1.2.3fix (August 2025)
+
+Hotfix:
+    Hotfix for save game issues and lunalib settings error
+
 Version 1.2.3 (August 2025)
 
 Slipstream Fix
