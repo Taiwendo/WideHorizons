@@ -1,3 +1,26 @@
+Version 1.2.4 (August 2025)
+
+Patch Notes (Discovery & Anomalies)
+    Fixes
+        Resolved a rare crash during exploration checks (ConcurrentModificationException).
+        Discovered systems now stay discovered across reloads and setting changes.
+        "Discovery Mode: Off" now behaves like pure vanilla (no auto-reveal, nothing gets hidden).
+
+    Improvements
+        Added a safety pass that re-validates discovered jump anchors when loading a save.
+        Tuned default discovery settings for better performance (slower checks, vanilla visibility range).
+        Warning beacons can still add intel entries (optional setting).
+
+    Anomalies
+        Void Star: sensor-disruption message now only appears in the same location and is throttled to prevent spam;
+        sensor penalty is cleaned up when leaving range/area.
+        Pulse Star: pulses start with a short random delay after entering the system, burst interval is randomized,
+        messages are throttled, and states reset cleanly after save/load.
+
+    Compatibility
+        Safe to install mid-save.
+        If some jump points look odd: toggle "Hide Procgen Systems" Off → On once to refresh visibility.
+
 Version 1.2.3fix (August 2025)
 
 Hotfix:
