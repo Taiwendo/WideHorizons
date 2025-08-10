@@ -19,7 +19,7 @@ Patch Notes (Discovery & Anomalies)
 
     Compatibility
         Safe to install mid-save.
-        If some jump points look odd: toggle "Hide Procgen Systems" Off → On once to refresh visibility.
+        If some jump points look odd: toggle "Hide Procgen Systems" Off - On once to refresh visibility.
 
 Version 1.2.3fix (August 2025)
 
