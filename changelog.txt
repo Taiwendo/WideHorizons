@@ -1,8 +1,8 @@
 Version 1.2.3 (August 2025)
 
 Slipstream Fix
-    [Safe re-enable: Turning slipstreams back On restores exactly one vanilla manager with a gentle start (no burst spawns).
-    Savegame cleanup: Existing saves get a one-time migration that deduplicates managers/terrains and aligns them to your toggle.]
+    Safe re-enable: Turning slipstreams back On restores exactly one vanilla manager with a gentle start (no burst spawns).
+    Savegame cleanup: Existing saves get a one-time migration that deduplicates managers/terrains and aligns them to your toggle.
 
     No more duplicates: Fixed an issue where multiple managers could run at once, causing 2–3 more slipstreams.
     Performance/stability: No per-frame overhead; cleaner hyperspace state.
