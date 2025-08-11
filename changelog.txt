@@ -1,3 +1,14 @@
+Version 1.2.5 (August 2025)
+
+Added two new scaling settings for galaxy generation
+    Constellation Scaling Exponent - adjusts constellation count relative to sector size.
+    POI Scaling Exponent - adjusts amount of points of interest (Remnants, Ruins, Cryosleepers, etc.) relative to sector size.
+
+System Expansion Fixes & Improvements
+    Improved constellation relocation: Randomly generated mod constellations are now detected and correctly moved to their intended positions.
+    Better compatibility: Fixed an issue where certain constellations (e.g., Magellan, HMI systems) were not being shifted as expected.
+    Consistent hyperspace clearing: Clearing around registered constellations now works the same way as for fixed systems.
+
 Version 1.2.4 (August 2025)
 
 Patch Notes (Discovery & Anomalies)
