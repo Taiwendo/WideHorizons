@@ -1,3 +1,14 @@
+Version 1.2.6 (August 2025)
+
+Discovery System Update
+    Improved save compatibility: discovered systems and jump points are now stored reliably in the save file.
+    Fixed an issue where some systems would always appear visible, even if undiscovered.
+    Systems are now only revealed if they have a visible market or you’ve discovered their jump anchor.
+    Entering a system or discovering its jump point will now correctly unlock it on the map.
+
+Fixed hyperspace toggle: "Strange Hyperspace: Off" now shows vanilla blue clouds everywhere as intended.
+Setting is read more reliably from the options, so your choice is consistently applied on new games/loads.
+
 Version 1.2.5 (August 2025)
 
 Added two new scaling settings for galaxy generation
