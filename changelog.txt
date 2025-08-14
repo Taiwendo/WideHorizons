@@ -1,3 +1,24 @@
+Version 1.2.7 (August 2025)
+
+Added New Runtime Diagnostics Command
+    You can now use the console command whdiag_runtime to check what’s actually spawned in your sector - live, without reloading.
+        This includes:
+            Sector size & hyperspace grid info
+            Storm penalty status & Abyss detection
+            Remnant systems & Nexus stations
+            Warning Beacons (low/med/high)
+            Research stations, mining stations, supply caches, and other caches
+            Domain probes & survey ships
+            Hypershunts & cryosleepers
+    Add details to the command (e.g. whdiag_runtime details) to see where some of these were found.
+
+Fixed:
+    Save compatibility: This update is load-safe but not retroactive.
+    The new worldgen content (research/mining stations, domain probes/survey ships, hypershunts) appears on new games only.
+    Existing saves are unaffected.
+    Systems with inhabited, visible markets remain shown from the start; all other systems must still be explored before appearing.
+    Abyss regions now correctly apply speed, sensor, and visibility penalties even when hyperspace storms are disabled.
+
 Version 1.2.6 (August 2025)
 
 Discovery System Update
