@@ -1,3 +1,12 @@
+Version 1.2.7fix (August 2025)
+
+Fixes & Improvements
+    Adjusted procedural generation so all themed content (Remnants, Ruins, Cryosleepers, Motherships, Coronal Taps) now scales correctly with sector size.
+    Fixed incorrect scaling in certain theme generators that caused too few or too many points of interest in large sectors.
+    Warning beacons and other theme-related POIs now match intended density for different sector sizes.
+    Improved internal diagnostics for better POI counting and scaling verification.
+    Savegame, no longer crashes with the theme error.
+
 Version 1.2.7 (August 2025)
 
 Added New Runtime Diagnostics Command
