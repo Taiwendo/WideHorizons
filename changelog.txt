@@ -1,3 +1,24 @@
+Version 1.2.8 (August 2025)
+
+Added new settings for the Hyperspace Abyss in the Galaxy tab.
+Abyss Size Coupling: controls how much the dark Abyss at the edges of the map scales with the overall galaxy size.
+Abyss Edge Fade: controls how quickly the Abyss darkness fades in at the very edge of the map.
+Default values keep the same behavior as before. Advanced players can now fine-tune how big or small the Abyss feels in larger or smaller galaxies.
+
+Visual Effects:
+    Pulse Star and Void Star mote effects are now registered only once per system.
+    Improved performance: motes idle when the player is not in the system instead of running constantly.
+
+Discovery System:
+    Fixed duplicate registration of the discovery plugin after loading a save.
+    Added safeguards so each entity (jump points, anchors, beacons etc.) is only marked as discovered once.
+    Prevented double-triggering during discovery, improving stability.
+    Intel messages and XP rewards are now shown only the first time you discover a system or beacon.
+
+General Stability:
+    Reduced risk of slowdown after saving and reloading campaigns.
+    Overall smoother exploration and map visibility updates.
+
 Version 1.2.7fix (August 2025)
 
 Fixes & Improvements
