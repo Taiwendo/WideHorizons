@@ -1,3 +1,19 @@
+Version 1.2.9 (August 2025)
+
+New added:
+    Wide Horizons Scaling API, more on this in the guide.
+
+    Added a new Performance tab in the LunaLib settings.
+    Explains which options have the biggest impact on FPS, CPU, or RAM.
+    Includes clear [highlighted] notes and recommended presets (Balanced / Performance / Exploration+).
+    Improved settings tooltips with clearer formatting and color highlights for important information.
+
+    Added an option to switch between Red/Blue Strange Hyperspace and the original vanilla blue hyperspace clouds.
+    If Strange Hyperspace is turned off, all clouds will now use the classic vanilla textures.
+    Fixed save/load handling so hyperspace visuals stay consistent across saves.
+
+    A few general improvements to Procen.
+
 Version 1.2.8 (August 2025)
 
 Added new settings for the Hyperspace Abyss in the Galaxy tab.
