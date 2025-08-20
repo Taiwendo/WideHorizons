@@ -8,7 +8,7 @@ New added:
     Includes clear [highlighted] notes and recommended presets (Balanced / Performance / Exploration+).
     Improved settings tooltips with clearer formatting and color highlights for important information.
 
-    Added an option to switch between Red/Blue Strange Hyperspace and the original vanilla blue hyperspace clouds.
+    Added an option to switch between Strange/Blue Hyperspace and the original vanilla blue hyperspace clouds.
     If Strange Hyperspace is turned off, all clouds will now use the classic vanilla textures.
     Fixed save/load handling so hyperspace visuals stay consistent across saves.
 
