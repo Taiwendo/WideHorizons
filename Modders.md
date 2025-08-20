@@ -1,4 +1,4 @@
-# 🌌 Wide Horizons – Scaling API Developer Guide
+# 🌌 Wide Horizons - Scaling API Developer Guide
 
 Wide Horizons dynamically scales the **Starsector galaxy** (sector width/height, constellation count, etc.).  
 To keep your systems aligned when scaling is active, register them with the API instead of placing them manually.  
@@ -45,7 +45,7 @@ WideHorizonsAPI.registerSystem("my_system_id", 12000f, -8000f);
   - At the end of your system generator `generate()`  
   - Inside `onNewGame()` or `onNewGameAfterProcGen()`  
 
-👉 The API is idempotent — duplicate registrations are ignored with a log warning.
+👉 The API is idempotent - duplicate registrations are ignored with a log warning.
 
 ---
 
@@ -102,7 +102,7 @@ system.getLocation().set(pos.x, pos.y);
 **Don’t**
 - Don’t move systems manually after registering  
 - Don’t register the same system twice  
-- Don’t worry about hyperspace cleanup — it’s automatic  
+- Don’t worry about hyperspace cleanup - it’s automatic  
 
 ---
 
