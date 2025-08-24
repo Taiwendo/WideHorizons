@@ -1,3 +1,11 @@
+Version 1.2.9a (August 2025)
+
+UI Fix Update
+    Fixed a bug where the Intel and map UI could become misaligned when using non-vanilla sector sizes (clicks registering offset from visuals).
+    Sector scaling values are now only applied during new game generation. They will no longer change in the middle of an active save, preventing UI desync issues.
+    Improved internal validation of galaxy settings (cell size, constellation size, sector dimensions) to fall back to safe vanilla values if invalid numbers are detected.
+    Vanilla Core System Scale adjustments.
+
 Version 1.2.9 (August 2025)
 
 New added:
