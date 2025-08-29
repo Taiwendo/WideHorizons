@@ -1,39 +1,39 @@
 Version 1.2.9b (August 2025)
 
 Core Systems & Universe Scaling
-    Improved Galaxy Scaling: the sector now scales consistently in both axes using a new elliptical factor.
-    The sector size is only set when starting a new game (never mid‑save), which fixes the misaligned Intel/click areas on the map.
-    Safe Defaults: if you enter invalid galaxy settings (width, height, cell size, constellation count), the game will automatically fall back to vanilla values, avoiding crashes or huge performance drops.
+	Improved Galaxy Scaling: the sector now scales consistently in both axes using a new elliptical factor.
+	The sector size is only set when starting a new game (never mid-save), which fixes the misaligned Intel/click areas on the map.
+	Safe Defaults: if you enter invalid galaxy settings (width, height, cell size, constellation count), the game will automatically fall back to vanilla values, avoiding crashes or huge performance drops.
 
 Exploration & Discovery
-    Stable Exploration Mode: Discovery scripts now pause when a dialog is open (Fleet Detachment from Industrial Evolution).
-    This prevents rare crashes and preserves the integrity of hidden systems.
-    Star & Planet Discovery Fixes: hidden systems are no longer revealed at the wrong time, and core worlds remain visible.
-    Discovery notifications and map reveals are deferred until it's safe to show them.
-    Improved Compatibility: a new listener (WHDialogMemoryPatcher) injects a valid memory map into certain dialog plugins to prevent null-pointer crashes caused by other mods.
-    This helps ensure smooth interactions when multiple mods run together.
+	Stable Exploration Mode: Discovery scripts now pause when a dialog is open (Fleet Detachment from Industrial Evolution).
+	This prevents rare crashes and preserves the integrity of hidden systems.
+	Star & Planet Discovery Fixes: hidden systems are no longer revealed at the wrong time, and core worlds remain visible.
+	Discovery notifications and map reveals are deferred until it's safe to show them.
+	Improved Compatibility: a new listener (WHDialogMemoryPatcher) injects a valid memory map into certain dialog plugins to prevent null-pointer crashes caused by other mods.
+	This helps ensure smooth interactions when multiple mods run together.
 
 Systems & Colonies
-    Unique Planet IDs: fixed a long‑standing bug where two planets could share the same internal ID, causing one colony to vanish from the colony tab.
-    Planets now get guaranteed unique IDs at generation time, and any duplicates are automatically corrected.
-    Spindle System Fix: the Spindle system is repositioned correctly after scaling, and hyperspace terrain around it is cleared and refilled to match its new location.
+	Unique Planet IDs: fixed a long-standing bug where two planets could share the same internal ID, causing one colony to vanish from the colony tab.
+	Planets now get guaranteed unique IDs at generation time, and any duplicates are automatically corrected.
+	Spindle System Fix: the Spindle system is repositioned correctly after scaling, and hyperspace terrain around it is cleared and refilled to match its new location.
 
 User Interface
-    Intel & Map UI Alignment: resolved an issue that caused click regions of Intel pop‑ups to extend far into the screen when using non‑vanilla sector sizes.
-    Buttons and lists now behave reliably regardless of sector scale.
-    Prevented Mid‑Game Desyncs: changing sector size settings in the middle of a campaign no longer disrupts the UI-settings only apply when you start a new game.
+	Intel & Map UI Alignment: resolved an issue that caused click regions of Intel pop-ups to extend far into the screen when using non-vanilla sector sizes.
+	Buttons and lists now behave reliably regardless of sector scale.
+	Prevented Mid-Game Desyncs: changing sector size settings in the middle of a campaign no longer disrupts the UI - settings only apply when you start a new game.
 
 Stability & Compatibility
-    Crash‑to‑Desktop Fixes: addressed a rare crash when picking up stranded fleets in hyperspace while exploration mode was active.
-    Wide Horizons now coordinates with dialog systems to avoid null references.
-    Better Logging: improved log messages and warnings to help diagnose issues if they occur, without spamming the player with unnecessary information.
-    Cross‑mod Support: numerous under‑the‑hood improvements make Wide Horizons more compatible with major mods like Industrial Evolution, Nexerelin and Random Assortment of Things.
+	Crash-to-Desktop Fixes: addressed a rare crash when picking up stranded fleets in hyperspace while exploration mode was active.
+	Wide Horizons now coordinates with dialog systems to avoid null references.
+	Better Logging: improved log messages and warnings to help diagnose issues if they occur, without spamming the player with unnecessary information.
+	Cross-mod Support: numerous under-the-hood improvements make Wide Horizons more compatible with major mods like Industrial Evolution, Nexerelin and Random Assortment of Things.
 
 Performance improvements for Dark Star visual effects
-    Optimized the glow-mote effects around Void and Pulse Stars.
-    These effects will now only run while you are inside the system.
-    When you leave the system, they stop cleanly to avoid unnecessary background load.
-    This reduces stutter and improves performance in large mod setups.
+	Optimized the glow-mote effects around Void and Pulse Stars.
+	These effects will now only run while you are inside the system.
+	When you leave the system, they stop cleanly to avoid unnecessary background load.
+	This reduces stutter and improves performance in large mod setups.
 
 Version 1.2.9a (August 2025)
 
