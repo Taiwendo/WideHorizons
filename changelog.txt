@@ -1,3 +1,9 @@
+Version 1.2.9d (September 2025)
+
+Compatibility
+	Fixed a placement issue with Jaydee Piracy systems
+	(Dory, Grin, Hiroc) that could appear in the wrong spot or "drift" between loads.
+
 Version 1.2.9c (September 2025)
 
 |Savegame compatible (from 1.2.x)|
