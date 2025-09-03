@@ -1,6 +1,4 @@
 
----
-
 # 🌌 Wide Horizons - Scaling API Developer Guide
 
 Wide Horizons dynamically scales the **Starsector galaxy** (sector width/height, constellation count, etc.).
