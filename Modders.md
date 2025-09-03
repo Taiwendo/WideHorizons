@@ -1,5 +1,3 @@
-Perfekt — hier ist dein **Developer Guide** mit den **neuen Core-API-Punkten** sauber integriert. Du kannst das so 1:1 in dein README übernehmen.
-
 ---
 
 # 🌌 Wide Horizons - Scaling API Developer Guide
