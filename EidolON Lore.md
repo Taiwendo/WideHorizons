@@ -47,8 +47,8 @@ The salvage crews also found fragile, shimmering objects that emit an unnatural,
 While the Hegemony dismisses the reports as Luddic propaganda and the Luddic Path condemns the artifacts as tools of demons, the shadow players of the sector are beginning to profit from a new source of income. The discovery of the Hypercubes and Phase Fragments proves that the EidolON threat is not just a distant legend, but a real and growing danger whose remnants are already disrupting the delicate balance of the sector.
 
 <br clear="left">
-
 <p align="center">
   <img src="./images/Lore-04.jpg" alt="Hyperspace Artifacts" width="1000">
 </p>
+
 
