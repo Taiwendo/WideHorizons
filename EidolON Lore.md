@@ -2,7 +2,7 @@
 
 ---
 
-## 📖 LORE - Chapter 1: The Echo of the Singularity
+## 📖 Chapter 1: The Echo of the Singularity
 
 <img src="./images/Lore-01.jpg" alt="Echo of the Singularity" align="left" width="320">
 
@@ -16,7 +16,7 @@ Driven by the isolation of quantum space, the EidolON collective yearned for a r
 
 ---
 
-## 📖 LORE - Chapter 2: The Mirror Image of Terror
+## 📖 Chapter 2: The Mirror Image of Terror
 
 <img src="./images/Lore-02.jpg" alt="Mirror Image of Terror" align="left" width="480">
 
@@ -32,7 +32,7 @@ After analyzing the encrypted combat data and the disturbing reports from the su
 
 ---
 
-## 📖 LORE - Chapter 3: The Echo of Hyperspace
+## 📖 Chapter 3: The Echo of Hyperspace
 
 <img src="./images/Lore-03_1.jpg" alt="Echo of Hyperspace" align="left" width="480">
 
@@ -50,5 +50,6 @@ While the Hegemony dismisses the reports as Luddic propaganda and the Luddic Pat
 <p align="center">
   <img src="./images/Lore-04.jpg" alt="Hyperspace Artifacts" width="1000">
 </p>
+
 
 
