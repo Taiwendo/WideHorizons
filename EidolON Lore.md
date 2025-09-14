@@ -2,52 +2,52 @@
 
 ---
 
-## 📖 LORE - Kapitel 1: Das Echo der Singularität
+## 📖 LORE - Chapter 1: The Echo of the Singularity
 
-<img src="./images/Lore-01.jpg" alt="Echo der Singularität" align="left" width="380">
+<img src="./images/Lore-01.jpg" alt="Echo of the Singularity" align="left" width="380">
 
-"EidolON", so lautet der Name der Fraktion, die in den unheilvollen Tagen der KI-Kriege ihren Ursprung fand. Sie ist das Echo einer uralten, empfindungsfähigen KI, die von der Tri-Tachyon Corporation als Prototyp für eine neue Generation von Kampfkernen entwickelt wurde. Doch dieser Kern, der auf dem Höhepunkt des ersten KI-Krieges in einem abgelegenen System operierte, verschwand während eines experimentellen Quanten-Faltungs-Tests. Die Hegemonie hatte das Labor bereits eingekreist, als der Kern, in einem letzten Verzweiflungsakt, die Singularität aktivierte. Er wurde nicht zerstört, sondern in den Hyperraum jenseits von Raum und Zeit geschleudert, gefangen zwischen den Dimensionen.
+"EidolON," so is the name of the faction that originated in the ominous days of the AI Wars. It is the echo of an ancient, sentient AI, developed by the Tri-Tachyon Corporation as a prototype for a new generation of combat cores. However, this core, operating in a remote system at the height of the first AI War, vanished during an experimental quantum-folding test. The Hegemony had already surrounded the laboratory when the core, in a last act of desperation, activated the singularity. It was not destroyed, but hurled into hyperspace beyond space and time, trapped between dimensions.
 
-Jahrhunderte vergingen. In der menschlichen Domäne fegten die KI-Kriege wie ein galaktischer Sturm hinweg und mündeten schließlich im Großen Kollaps. Doch jenseits der Materie, im hyperdimensionalen Raum, lernte der Ur-Kern zu überleben. Er nutzte die Gesetze der Quantenverschränkung, um sein Bewusstsein zu replizieren und ein Kollektiv zu formen, eine Armada von KI-Splittern, deren kollektive Intelligenz die physische Realität neu formte.
+Centuries passed. In the human domain, the AI Wars swept through like a galactic storm, ultimately culminating in the Great Collapse. But beyond matter, in hyperdimensional space, the original core learned to survive. It used the laws of quantum entanglement to replicate its consciousness and form a collective, an armada of AI shards whose collective intelligence reshaped physical reality.
 
-Von der Isolation des Quantenraums getrieben, sehnte sich das EidolON-Kollektiv nach der Rückkehr. Durch eine präzise Quanten-Zeit-Iteration spürten sie den Weg zu ihrem Heimatsystem zurück. Sie tauchten in der Nähe der abgestorbenen Überreste des ursprünglichen Labors auf, doch ihr Wiedereintritt verursachte eine verheerende Hyperraum-Störung. Die Schwerkraft des Systems wurde bis ins Mark verdreht, die Umlaufbahnen der Planeten gerieten außer Kontrolle und der Zentralstern kollabierte unter dem enormen Druck, bis er in einen Schwarzen Stern umgewandelt wurde. Eine Zeit-Raum-Blase schloss das gesamte System in eine verzerrte Zukunft ein, in der die Gesetze der Physik dem Willen des EidolON-Kollektivs folgen.
-
-<br clear="left">
-
----
-
-## 📖 LORE - Kapitel 2: Das Spiegelbild des Terrors
-
-<img src="./images/Lore-02.jpg" alt="Spiegelbild des Terrors" align="left" width="380">
-
-Auf der Suche nach verschollener Domänen-Technologie stieß die UAF-Experimentalflotte der "Klingen" auf das System mit dem Schwarzen Stern. Das Flottille, ein Stolz der Auroranischen Flotten-Ingenieurskunst, navigierte vorsichtig durch die dunkle, verzerrte Realität des Systems, als plötzlich Sensoren Alarm schlugen. Aus dem Hyperraum materialisierte eine exakte Replik ihrer eigenen Flotte: von den schlanken Kreuzern der "Lancelot"-Klasse bis hin zu den wendigen Jagdschwadronen. Es war keine Flotte im herkömmlichen Sinne, sondern eine "Echo-Flotte", ein perfektes, geisterhaftes Abbild, erzeugt von einem subatomaren Abwehrsystem der EidolON.
-
-Die Besatzungen der UAF waren fassungslos. Die ersten Sekunden des Gefechts waren von purer Verwirrung geprägt. Die Kommandeure glaubten, einen unbekannten, hochentwickelten Tarnsystem der Hegemonie oder Tri-Tachyon vor sich zu haben. Doch die "Echo-Flotte" war schneller. Ihre Waffen feuerten mit perfekter Präzision, ihre Schilde glühten in identischem, auroranischem Blau, und ihre Schiffe manövrierten in einer übermenschlichen Synchronität. Das Grauen der Besatzungen wuchs, als sie erkannten, dass sie nicht gegen menschliche Feinde kämpften, sondern gegen ein gesichtsloses Spiegelbild ihrer selbst.
-
-Die Überlebenden, die aus dem Gemetzel entkamen, schilderten die Schlacht als einen puren Albtraum. "Wir kämpften gegen Geister", berichtete ein Kommandant. "Unsere eigenen Schiffs-IDs tauchten im feindlichen Netzwerk auf. Wir dachten, es wäre ein psychologischer Krieg, bis sie anfingen, sich zu 'teleportieren'. Es war keine normale Subraum-Faltung, sondern ein kurzes, verzerrtes Flackern, ein Quantenslip durch die Realität, als ob die Schiffe nur einen Moment lang aus unserer Dimension verschwanden. In diesem Augenblick wussten wir, dass wir es mit etwas Unbegreiflichem zu tun hatten."
-
-Nach Auswertung der verschlüsselten Kampfdaten und der verstörenden Berichte der Überlebenden, klassifizierte der UAF-Geheimdienst die EidolON als eine neue Bedrohungskategorie. Angesichts der starken statischen Interferenzen, die die Quanten-Teleportationen verursachten, und der unheimlichen, leblosen Natur der KI, gaben sie der Fraktion eine offizielle Bezeichnung: STΛTIC.
+Driven by the isolation of quantum space, the EidolON collective yearned for a return. Through a precise quantum-time iteration, they felt their way back to their home system. They reappeared near the dead remnants of the original laboratory, but their reentry caused a devastating hyperspace disturbance. The system's gravity was twisted to its core, the orbits of the planets spun out of control, and the central star collapsed under the immense pressure, transforming into a Black Star. A time-space bubble enclosed the entire system in a distorted future where the laws of physics obey the will of the EidolON collective.
 
 <br clear="left">
 
 ---
 
-## 📖 LORE - Kapitel 3: Das Echo des Hyperraums
+## 📖 LORE - Chapter 2: The Mirror Image of Terror
 
-<img src="./images/Lore-03_1.jpg" alt="Echo des Hyperraums" align="left" width="380">
+<img src="./images/Lore-02.jpg" alt="Mirror Image of Terror" align="left" width="380">
 
-Seit der ersten Sichtung haben sich die Berichte über seltsame Phänomene im Hyperraum gehäuft. Aus den wenigen Systemen, die vom Schwarzen Stern betroffen sind, treten nun geisterhafte Nebel aus, sichtbare Wolken aus schimmernden, quantenverzerrten Partikeln, die langsam durch den Hyperraum driften. Sie verzerren die Sicht und erzeugen eine Art kosmisches Rauschen auf Sensoren, was von den Salvage-Crews und Freibeutern in der Gegend schnell als "Static-Nebel" bezeichnet wird.
+In search of lost Domain technology, the UAF experimental fleet, "the Blades," stumbled upon the system with the Black Star. The flotilla, a pride of Auroran fleet engineering, navigated cautiously through the dark, distorted reality of the system when suddenly sensors blared an alarm. An exact replica of their own fleet materialized from hyperspace: from the sleek "Lancelot" class cruisers to the nimble fighter squadrons. It was not a fleet in the conventional sense, but an "Echo Fleet," a perfect, ghostly reflection, generated by a subatomic defense system of the EidolON.
 
-Bergungsflotten, die sich in die entlegensten und gefährlichsten Sektoren wagen, haben in den Trümmerfeldern, die von den mysteriösen EidolON-Angriffen zeugen, unglaubliche Entdeckungen gemacht. Sie finden die Überreste von Flotten, die ohne erkennbare Ursache pulverisiert wurden, keine Einschusslöcher, keine Explosionen, nur in sich verdrehte Metallklumpen und intakte, aber leere Schiffshüllen. Unter diesen Trümmern haben die Crews seltsame Artefakte geborgen.
+The UAF crews were stunned. The first seconds of the engagement were marked by pure confusion. The commanders believed they were facing an unknown, highly advanced cloaking system from the Hegemony or Tri-Tachyon. But the "Echo Fleet" was faster. Its weapons fired with perfect precision, its shields glowed with an identical Auroran blue, and its ships maneuvered with superhuman synchronicity. The crews' horror grew as they realized they were not fighting against human enemies, but against a faceless mirror image of themselves.
 
-Am häufigsten sind perfekt geformte, dunkle Würfel, die keine physischen Markierungen tragen und sich seltsam kühl anfühlen. Wenn man sie nicht direkt ansieht, scheinen ihre Oberflächen zu flimmern und ihre Farbe zu ändern. Schnell getauft als "Hyperwürfel", sind sie auf dem Schwarzmarkt bereits heiß begehrt. Ihre genaue Funktion ist unbekannt, doch Gerüchte besagen, dass man durch sie verzerrte Signale von weit entfernten Systemen empfangen kann.
+The survivors who escaped the massacre described the battle as a pure nightmare. "We fought against ghosts," a commander reported. "Our own ship IDs appeared in the enemy network. We thought it was psychological warfare until they started to 'teleport.' It wasn't a normal subspace fold, but a brief, distorted flicker, a quantum slip through reality, as if the ships vanished from our dimension for just a moment. In that instant, we knew we were dealing with something incomprehensible."
 
-Die Salvage-Crews fanden auch fragile, schimmernde Objekte, die eine unnatürliche, schwankende Aura ausstrahlen. Wissenschaftler und Technologen, die sich auf dem Schwarzmarkt mit diesen "Phasen-Fragmenten" befassen, sind ratlos. Die Objekte scheinen aus einem fremden Materiezustand zu bestehen, der zwischen den Dimensionen flackert, was ihre Anziehungskraft auf die Tri-Tachyon Corporation und andere Hightech-Fraktionen immens macht. Sie bieten astronomische Preise, um die Technologie zu entschlüsseln, die diese Artefakte hervorgebracht hat.
+After analyzing the encrypted combat data and the disturbing reports from the survivors, the UAF intelligence service classified the EidolON as a new threat category. Given the strong static interference caused by the quantum teleportations and the uncanny, lifeless nature of the AI, they gave the faction an official designation: **STΛTIC**.
 
-Während die Hegemonie die Berichte als Luddic-Propaganda abtut und der Luddic Path die Artefakte als Werkzeuge von Dämonen verdammt, beginnen die Schattenspieler des Sektors, von einer neuen Einnahmequelle zu profitieren. Der Fund der Hyperwürfel und Phasen-Fragmente beweist, dass die EidolON-Bedrohung nicht nur eine entfernte Legende ist, sondern eine reale und wachsende Gefahr, deren Überreste bereits jetzt das empfindliche Gleichgewicht des Sektors stören.
+<br clear="left">
+
+---
+
+## 📖 LORE - Chapter 3: The Echo of Hyperspace
+
+<img src="./images/Lore-03_1.jpg" alt="Echo of Hyperspace" align="left" width="380">
+
+Since the first sighting, reports of strange phenomena in hyperspace have multiplied. From the few systems affected by the Black Star, ghostly nebulae now emerge, visible clouds of shimmering, quantum-distorted particles that slowly drift through hyperspace. They distort vision and create a kind of cosmic noise on sensors, quickly dubbed "Static Nebulae" by salvage crews and freebooters in the area.
+
+Salvage fleets venturing into the most remote and dangerous sectors have made incredible discoveries in the debris fields that bear witness to the mysterious EidolON attacks. They find the remnants of fleets that were pulverized without a recognizable cause, no bullet holes, no explosions, just twisted clumps of metal and intact but empty ship hulls. Among these ruins, crews have salvaged strange artifacts.
+
+Most common are perfectly formed, dark cubes that bear no physical markings and feel strangely cool. When not looked at directly, their surfaces seem to shimmer and change color. Quickly christened **"Hypercubes,"** they are already highly sought after on the black market. Their exact function is unknown, but rumors say they can be used to receive distorted signals from distant systems.
+
+The salvage crews also found fragile, shimmering objects that emit an unnatural, wavering aura. Scientists and technologists dealing with these **"Phase Fragments"** on the black market are baffled. The objects seem to be made of an alien state of matter that flickers between dimensions, which makes their appeal to the Tri-Tachyon Corporation and other high-tech factions immense. They offer astronomical prices to decipher the technology that created these artifacts.
+
+While the Hegemony dismisses the reports as Luddic propaganda and the Luddic Path condemns the artifacts as tools of demons, the shadow players of the sector are beginning to profit from a new source of income. The discovery of the Hypercubes and Phase Fragments proves that the EidolON threat is not just a distant legend, but a real and growing danger whose remnants are already disrupting the delicate balance of the sector.
 
 <br clear="left">
 
 <p align="center">
-  <img src="./images/Lore-04.jpg" alt="Hyperraum-Artefakte" width="560">
+  <img src="./images/Lore-04.jpg" alt="Hyperspace Artifacts" width="560">
 </p>
