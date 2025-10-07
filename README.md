@@ -1,6 +1,6 @@
-# WideHorizons
+# Wide Horizons
 
-**WideHorizons** expands the Starsector universe with bigger, stranger star systems,
+**Wide Horizons** expands the Starsector universe with bigger, stranger star systems,
 mysterious Dark Stars and atmospheric hyperspace phenomena, made for players who want more exploration, mystery and loot.
 
 ## Quick install
