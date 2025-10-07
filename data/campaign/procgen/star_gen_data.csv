@@ -1,0 +1,3 @@
+id,age,tags,freqYOUNG,freqAVERAGE,freqOLD,minRadius,maxRadius,habZoneStart,probOrbits,minOrbits,maxOrbits,coronaMin,coronaMult,coronaVar,solarWind,minFlare,maxFlare,crLossMult,lightColorMin,lightColorMax
+wh_dark_star_01,ANY,,0,0,0,900,1000,-100,0.0,0,0,800,1.0,0.0,3,0,1,2,5 5 10,20 20 60
+wh_dark_star_02,ANY,,0,0,0,900,1000,-100,0.0,0,0,800,1.0,0.0,3,0,1,2,10 0 20,40 20 80

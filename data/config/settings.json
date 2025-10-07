@@ -1,0 +1,142 @@
+{
+	"plugins": {
+      "newGameSectorProcGen": "org.widehorizons.campaign.procgen.WHSectorProcGen",
+      "WH_EidolonShipAuraFX": "org.widehorizons.eidolon.WHEidolonShipAuraFX",
+      "WH_EchoSwapController": "org.widehorizons.eidolon.WHEchoSwapController"
+	},
+
+    "ruleCommandPackages": [
+    "data.campaign.rulecmd",
+    "org.widehorizons.rulecmd"
+    ],
+
+	#Abyss Size
+	"wh_debugAbyss": false,
+
+	#Vanilla-Settings
+	"cellSize": 1800,
+	"constellationCellSize": 10,
+	"constellationCount": 100,
+	"sectorWidth": 164000,
+	"sectorHeight": 104000,
+	"minNonCoreGatesInSector": 15,
+	"maxNonCoreGatesInSector": 20,
+	"minGatesToAddOnSecondPass": 5,
+	"numCryo": 3,
+	"numCoronalTaps": 2,
+	"mothershipChainCount": 3,
+	"constellationSkipProb": 0.25,
+
+	"designTypeColors": {
+		"Dark Star Technology": [30, 30, 90, 255]
+	},
+
+	"graphics": {
+		"backgrounds": {
+			"wh_dark_bg1": "graphics/backgrounds/wh_dark_bg1.jpg",
+			"wh_dark_bg2": "graphics/backgrounds/wh_dark_bg2.jpg"
+		},
+		"planets": {
+			"star_black_01": "graphics/planets/star_black_01.jpg",
+			"star_black_02": "graphics/planets/star_black_02.jpg",
+            "wh_dark_star_01_effect": "graphics/planets/star_black_01.jpg",
+            "wh_dark_star_02_effect": "graphics/planets/star_black_02.jpg"
+		},
+		"stations":{
+			"wh_dark_station": "graphics/stations/wh_dark_station.png"
+		},
+		"campaignEntities":{
+			"wh_pulse_probe": "graphics/stations/wh_pulse_probe.png",
+			"wh_void_probe": "graphics/stations/wh_void_probe.png",
+            "wh_pulse_gate_anomaly_glow":"graphics/stations/wh_pulse_gate_anomaly_glow.png",
+            "wh_void_gate_anomaly_glow":"graphics/stations/wh_void_gate_anomaly_glow.png"
+		},
+		"icons": {
+			"star_black": "graphics/icons/planets/star_black.png",
+			"wh_dark_station": "graphics/icons/wh_dark_station_icon.png"
+		},
+		"intel": {
+			"wh_dark_signal": "graphics/icons/intel/wh_dark_signal.png",
+			"remote_void_signal": "graphics/icons/intel/remote_void_signal.png",
+			"remote_pulse_signal": "graphics/icons/intel/remote_pulse_signal.png"
+		},
+        "characters": {
+          "wh_dorian_veynar": "graphics/portraits/characters/wh_dorian_veynar.png",
+          "wh_lira_kaelen": "graphics/portraits/characters/wh_lira_kaelen.png",
+          "wh_selene_varros": "graphics/portraits/characters/wh_selene_varros.png",
+          "wh_cassian_thorne": "graphics/portraits/characters/wh_cassian_thorne.png",
+          "wh_dr._yara_tenzhou": "graphics/portraits/characters/wh_dr._yara_tenzhou.png",
+          "wh_dr._soren_kaito": "graphics/portraits/characters/wh_dr._soren_kaito.png"
+        },
+        "terrain":{
+			"deep_hyperspace": "graphics/terrain/wh_deep_hyperspace.png",
+			"deep_hyperspace_glow": "graphics/terrain/wh_deep_hyperspace_glow.png",
+			"deep_hyperspace_map": "graphics/terrain/wh_deep_hyperspace_map.png",
+			
+			"vanilla_deep_hyperspace": "graphics/terrain/vanilla_deep_hyperspace2.png",
+			"vanilla_deep_hyperspace_glow": "graphics/terrain/vanilla_deep_hyperspace_blue_glow.png",
+			"vanilla_deep_hyperspace_map": "graphics/terrain/vanilla_deep_hyperspace_map.png",
+
+            "wh_strange_hyperspace_void": "graphics/terrain/strange_hyperspace_void.png",
+            "wh_strange_hyperspace_void_map": "graphics/terrain/strange_hyperspace_void_map.png",
+
+            "wh_strange_hyperspace_pulse": "graphics/terrain/strange_hyperspace_pulse.png",
+            "wh_strange_hyperspace_pulse_map": "graphics/terrain/strange_hyperspace_pulse_map.png",
+
+			"nebula_purple":          "graphics/terrain/nebula_purple.png",
+			"nebula_purple_map":      "graphics/terrain/nebula_purple_map.png",
+			"nebula_purple_darker":     "graphics/terrain/nebula_purple_darker.png",
+			"nebula_purple_darker_map": "graphics/terrain/nebula_purple_darker_map.png",
+			"nebula_purple_lighter":    "graphics/terrain/nebula_purple_lighter.png",
+			"nebula_purple_lighter_map":"graphics/terrain/nebula_purple_lighter_map.png",
+
+			"nebula_violet":          "graphics/terrain/nebula_violet.png",
+			"nebula_violet_map":      "graphics/terrain/nebula_violet_map.png",
+			"nebula_violet_darker":     "graphics/terrain/nebula_violet_darker.png",
+			"nebula_violet_darker_map": "graphics/terrain/nebula_violet_darker_map.png",
+			"nebula_violet_lighter":    "graphics/terrain/nebula_violet_lighter.png",
+			"nebula_violet_lighter_map":"graphics/terrain/nebula_violet_lighter_map.png",
+
+			"nebula_crimson":           "graphics/terrain/nebula_crimson.png",
+			"nebula_crimson_darker":    "graphics/terrain/nebula_crimson_darker.png",
+			"nebula_crimson_lighter":   "graphics/terrain/nebula_crimson_lighter.png",
+			"nebula_crimson_map":       "graphics/terrain/nebula_crimson_map.png",
+			"nebula_crimson_darker_map":"graphics/terrain/nebula_crimson_darker_map.png",
+			"nebula_crimson_lighter_map":"graphics/terrain/nebula_crimson_lighter_map.png",
+
+			"nebula":					 "graphics/terrain/nebula.png",
+			"nebula_map":				 "graphics/terrain/nebula_lowres.png",
+			"nebula_blue":				 "graphics/terrain/nebula512_blue.png",
+			"nebula_amber":				 "graphics/terrain/nebula_amber.png"
+		},
+		"fx": {
+			"star_black_halo_01": "graphics/fx/star_black_halo_01.png",
+			"star_black_halo_01_shadow": "graphics/fx/star_black_halo_01_shadow.png",
+			"star_black_halo_02": "graphics/fx/star_black_halo_02.png",
+			"star_black_overlay_rays": "graphics/fx/star_black_overlay_rays.png",
+			"star_black_wavefront_ring": "graphics/fx/star_black_wavefront_ring.png",
+
+            "wh_overlay_red": "graphics/fx/wh_overlay_red.png",
+            "wh_overlay_blue": "graphics/fx/wh_overlay_blue.png",
+            "wh_flash": "graphics/fx/wh_flash.png",
+            "wh_wisp": "graphics/fx/wh_wisp.png",
+
+            "wh_dark_station_blinkyellow": "graphics/fx/wh_dark_station/wh_dark_station_blinkyellow.png",
+            "wh_dark_station_blinkred": "graphics/fx/wh_dark_station/wh_dark_station_blinkred.png",
+            "wh_dark_station_floodlight": "graphics/fx/wh_dark_station/wh_dark_station_floodlight.png",
+            "wh_dark_station_windows": "graphics/fx/wh_dark_station/wh_dark_station_windows.png"
+		},
+		"illustrations": {
+			"abandoned_dark_station": "graphics/illustrations/abandoned_dark_station.jpg",
+			"wh_pulse_probe": "graphics/illustrations/wh_pulse_probe.jpg",
+			"wh_void_pod": "graphics/illustrations/wh_void_pod.jpg",
+			"wh_black_project_intro": "graphics/illustrations/wh_black_project_intro.jpg",
+			"wh_black_project_debris": "graphics/illustrations/wh_black_project_debris.jpg"
+		}
+	},
+
+	"bonusXP": {
+		"wh_discovered_dark_station": 1,
+		"wh_scanned_dark_signal": 1
+	}
+}

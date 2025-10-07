@@ -1,0 +1,38 @@
+{
+  "wh_dark_star_01": {
+    "name": "Dark Star (Void)",
+    "tilt": -13,
+    "pitch": 2,
+    "rotation": -4.0,
+    "planetColor": [130, 20, 180, 255],
+    "atmosphereThickness": 0.13,
+    "atmosphereThicknessMin": 0.07,
+    "atmosphereColor": [100, 70, 150, 40],
+    "texture": "graphics/planets/star_black_01.jpg",
+    "icon": "graphics/icons/planets/star_black.png",
+    "iconColor": [130, 20, 180, 200],
+    "starCoronaSprite": "",
+    "starCoronaColor": [130, 20, 180, 200],
+    "starCoronaSizeMult": 4.5,
+    "isStar": true,
+    "lightPosition": [0, 0, 10]
+  },
+  "wh_dark_star_02": {
+    "name": "Dark Star (Pulse)",
+    "tilt": -25,
+    "pitch": 3,
+    "rotation": -6.5,
+    "planetColor": [180, 10, 90, 255],
+    "atmosphereThickness": 0.12,
+    "atmosphereThicknessMin": 0.06,
+    "atmosphereColor": [140, 60, 180, 50],
+    "texture": "graphics/planets/star_black_02.jpg",
+    "icon": "graphics/icons/planets/star_black.png",
+    "iconColor": [180, 10, 90, 200],
+    "starCoronaSprite": "",
+    "starCoronaColor": [180, 10, 90, 230],
+    "starCoronaSizeMult": 5.0,
+    "isStar": true,
+    "lightPosition": [0, 0, 10]
+  }
+}

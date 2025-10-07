@@ -1,0 +1,76 @@
+{
+  "music": {
+    "wh_dark_ambient_1": [
+        {"file": "wh_void_star_ambient.ogg", "source": "sounds/wh/music", "volume": 0.6}
+    ],
+    "wh_dark_ambient_2": [
+        {"file": "wh_pulse_star_ambient.ogg", "source": "sounds/wh/music", "volume": 0.6}
+    ],
+    "wh_dark_ambient_merged": [
+        {"file": "wh_void_star_ambient.ogg", "source": "sounds/wh/music", "volume": 0.6},
+        {"file": "wh_pulse_star_ambient.ogg", "source": "sounds/wh/music", "volume": 0.6}
+    ],
+    "wh_black_stars_ambient_01": [
+      {"file": "wh_black_stars_ambient.ogg", "source": "sounds/wh/music", "volume": 0.6}
+    ],
+    "wh_black_stars_ambient_02": [
+      {"file": "wh_black_stars_ambient.ogg", "source": "sounds/wh/music", "volume": 0.6}
+    ],
+	"wh_black_project_intro": [
+      {"file": "wh_black_project_intro.ogg", "source": "sounds/wh/music", "volume": 0.6}
+    ],
+
+    "eidolon_encounter_neutral":[
+      {"file":"EidolON_neutral.ogg","source":"sounds/wh/music/encounter","volume":0.3,"randomStart":true}
+    ],
+    "eidolon_encounter_hostile":[
+      {"file":"EidolON_hostile.ogg","source":"sounds/wh/music/encounter","volume":0.3,"randomStart":true}
+    ],
+    "eidolon_encounter_friendly":[
+      {"file":"EidolON_friendly.ogg","source":"sounds/wh/music/encounter","volume":0.3,"randomStart":true}
+    ],
+
+    "wh_eidolon_combat": [
+      {
+        "source": "sounds/wh/music/encounter",
+        "files": ["EidolON_hostile.ogg"],
+        "volume": 0.6,
+        "randomStart": false
+      }
+    ]
+  },
+  "wh_explosion_wave_01": [
+    {"file": "sounds/wh/sfx_misc/wh_explosion_wave.ogg", "pitch": 1, "volume": 0.8, "type": "UI"}
+  ],
+  "wh_explosion_wave_02": [
+    {"file": "sounds/wh/sfx_misc/wh_explosion_wave.ogg", "pitch": 1, "volume": 0.8, "type": "UI"}
+  ],
+  "wh_dark_ping":[
+    {"file":"sounds/wh/sfx_misc/wh_dark_ping.ogg","pitch":1,"volume":0.8, "type": "UI"}
+  ],
+
+  #Sztrange Hyperspace
+  "wh_strange_loop":[
+    {"file":"sounds/wh/sfx_terrain/wh_strange_hyperspace_norm_loop.ogg","pitch":1,"volume":0.3}
+  ],
+  "wh_strange_fx_loop":[
+    {"file":"sounds/wh/sfx_terrain/wh_strange_hyperspace_fx_loop.ogg","pitch":1,"volume":0.3}
+  ],
+  "wh_emp_debuff_loop":[
+    {"file":"sounds/wh/sfx_terrain/wh_strange_debuff_fx_loop.ogg","pitch":1, "volume":0.3}
+  ],
+  "wh_strange_pulse_damage":{
+    "sounds":[
+      {"file":"sounds/wh/sfx_impacts/pulse_hit_01.ogg","pitch":1,"volume":0.3},
+      {"file":"sounds/wh/sfx_impacts/pulse_hit_02.ogg","pitch":1,"volume":0.3},
+      {"file":"sounds/wh/sfx_impacts/pulse_hit_03.ogg","pitch":1,"volume":0.3}
+    ]
+  },
+  "wh_strange_void_damage":{
+    "sounds":[
+      {"file":"sounds/wh/sfx_impacts/void_hit_01.ogg","pitch":1,"volume":0.3},
+      {"file":"sounds/wh/sfx_impacts/void_hit_02.ogg","pitch":1,"volume":0.3},
+      {"file":"sounds/wh/sfx_impacts/void_hit_03.ogg","pitch":1,"volume":0.3}
+    ]
+  }
+}

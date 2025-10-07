@@ -1,0 +1,2 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Echo Transposition,wh_echo_swap,,,,,,,,,,0.25,0.10,0.25,12,,,,,,,,,,,,movement,graphics/icons/hullsys/wh_transition.png

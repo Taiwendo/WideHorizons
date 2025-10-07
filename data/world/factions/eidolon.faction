@@ -1,0 +1,32 @@
+{
+  "id": "eidolon",
+  "displayName": "EidolON",
+  "displayNameWithArticle": "the EidolON",
+
+  "logo": "graphics/factions/WH_EidolON_flag.png",
+  "crest": "graphics/factions/WH_EidolON_crest.png",
+
+  "color": [120, 160, 255, 255],
+  "baseUIColor": [90, 120, 220, 255],
+  "darkUIColor": [35, 45, 80, 255],
+
+  "names": {},
+
+  "portraits": {
+    "standard_male": [
+      "graphics/portraits/EidolON-portraits_01.png",
+      "graphics/portraits/EidolON-portraits_03.png"
+    ],
+    "standard_female": [
+      "graphics/portraits/EidolON-portraits_00.png",
+      "graphics/portraits/EidolON-portraits_02.png"
+    ]
+  },
+
+  "music": {
+    "theme": "",
+    "encounter_neutral": "eidolon_encounter_neutral",
+    "encounter_hostile": "eidolon_encounter_hostile",
+    "encounter_friendly": "eidolon_encounter_friendly"
+  }
+}

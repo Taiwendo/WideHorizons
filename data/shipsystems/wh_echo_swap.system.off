@@ -1,0 +1,25 @@
+{
+  "id": "wh_echo_swap",
+  "type": "STAT_MOD",
+
+  "aiType": "CUSTOM",
+  "aiScript": "",
+
+  "statsScript": "",
+
+  "useSound": "system_phase_teleporter",
+  "outOfUsesSound": "gun_out_of_ammo",
+
+  "jitterColor": [160, 120, 255, 200],
+  "jitterCopies": 7,
+  "jitterRange": 20,
+  "jitterRangeRadiusFraction": 0.0,
+
+  "fadeActivationSoundOnChargedown": false,
+
+  "aiHints": {
+    "activeSpeedIncrease": 0,
+    "burstMovementPotential": 350,
+    "averageSpeedIncrease": 0
+  }
+}

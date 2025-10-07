@@ -1,0 +1,31 @@
+id,trigger,conditions,script,text,options,notes
+## Wide Horizons - Strange Quantum Cube (SiC-style AddBarEvents)
+wh_strangeAddBarEvent,AddBarEvents,"$global.wh_strangeHyperspace_firstSpread
+!$global.wh_strangeEncounter_completed
+!$market.isHidden","AddBarEvent whStrangeBarStart ""Talk to the salvager Captain"" ""Rumors say a Strange Quantum Cube is changing hands"" highlight",,,
+wh_strangeBarEventStart,DialogOptionSelected,$option == whStrangeBarStart,WHStartBarEventDialog,,,
+
+## M2 – TT courier & science contact
+wh_m2_agent_add,AddBarEvents,"$global.wh_m2_started == true
+$global.wh_m2_stage == WAIT120
+$global.wh_m2_ready_barAgent == true
+!$market.isHidden","AddBarEvent whM2Agent ""Tri-Tachyon Courier"" ""A nondescript figure with a TT enamel pin requests a discreet meeting."" tritachyon highlight",,,
+
+wh_m2_agent_accept,DialogOptionSelected,"$option == whM2Agent","WH_M2RulesCmd start_dialog",,,,
+
+wh_m2_decoder_add,AddBarEvents,"$global.wh_m2_stage == GOTO_TT
+$global.wh_m2_targetTtMarketId == $market.id
+!$market.isHidden","AddBarEvent whM2Decoder ""TT Science"" ""A lead researcher is expecting your arrival."" tritachyon highlight",,,
+
+wh_m2_decoder_accept,DialogOptionSelected,"$option == whM2Decoder","WH_M2RulesCmd decoder_give",,,,
+
+wh_bp_add_option,PopulateOptions,WHBlackProjectCmd WHBPCanDeliver,,,5.0:wh_bp_deliver:Deliver the flight recorder,""
+wh_bp_deliver,DialogOptionSelected,$option == wh_bp_deliver,WHBlackProjectCmd WHBPDeliverStart,,wh_bp_dlv_1:Continue,""
+wh_bp_dlv_1,DialogOptionSelected,$option == wh_bp_dlv_1,WHBlackProjectCmd WHBPLore1,,wh_bp_dlv_2:Continue,""
+wh_bp_dlv_2,DialogOptionSelected,$option == wh_bp_dlv_2,WHBlackProjectCmd WHBPLore2,,wh_bp_dlv_3:Continue,""
+wh_bp_dlv_3,DialogOptionSelected,$option == wh_bp_dlv_3,WHBlackProjectCmd WHBPLore3,,wh_bp_exit:Cut the comm link,""
+
+wh_bp_exit,DialogOptionSelected,$option == wh_bp_exit,WHBlackProjectCmd WHBPExit,,,""
+
+wh_bp_report_add,PopulateOptions,WHBlackProjectCmd WHBPCanReport,,,5.5:wh_bp_report:Report your findings,""
+wh_bp_report,DialogOptionSelected,$option == wh_bp_report,WHBlackProjectCmd WHBPReport,,,""

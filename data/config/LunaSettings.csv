@@ -1,0 +1,181 @@
+fieldID,fieldName,fieldType,defaultValue,secondaryValue,fieldDescription,minValue,maxValue,tab
+wh_perfHeader,Performance,Header,Performance,,,,,Performance
+wh_perfNotes,Performance Notes,Text,"[How to read the badges]
+[PERF] = impact on FPS/CPU/RAM
+[SCOPE] = when it applies (NEW GAME vs. RUNTIME)
+[LOAD] = which component is stressed (CPU/GPU/MEM)
+
+Recommended presets:
+[- Balanced]: default values (good quality/performance)
+[- Performance]: Galaxy Size Vanilla/150%%, Clouds 0.6–0.7, Storms Off, Remnants 6–8, Discovery intervals 0.9–1.4
+[- Exploration+]: Galaxy Size 200–250%%, Auto Constellation Scaling On, Clouds 0.8–0.9, Storms On",,,,,Performance
+,,,,,,,,
+wh_generalHeader,Galaxy Size,Header,Galaxy Size,,,,,Galaxy
+wh_scaleMultiplier,Galaxy Size,Radio,Vanilla,"Vanilla, 150%, 200%, 250%, 300%","[PERF: VERY HIGH | SCOPE: NEW GAME | LOAD: CPU+MEM]
+Sets the overall size of the galaxy (sector width & height).
+This controls how far apart constellations and systems are placed.
+Most players should only adjust this value. All other generation settings are automatically scaled by the mod.
+
+[Tip:] Leave other values on 'Auto' unless you are an advanced user and want full manual control.
+
+[Note:] Larger galaxies may increase memory usage and require a stronger PC.",,,Galaxy
+,,,,,,,,
+wh_coreWorldHeader,Core Worlds,Header,Core Worlds,,,,,Galaxy
+wh_coreWorldScaleMultiplier,Core World Scale,Radio,Auto,"Auto, Vanilla, 150%, 200%, 250%, 300%","Controls the spread of the Core Worlds (e.g., Hegemony, Tri-Tachyon).
+[Auto] follows the overall Galaxy Size.
+
+[Vanilla] keeps them at original size.
+
+[150%%, 200%%, 250%%, 300%%] = more spread.",,,Galaxy
+,,,,,,,,
+wh_procgenHeader,Constellation Settings,Header,Constellation Distribution,,,,,Galaxy
+constellationCount,Constellation Count,Radio,Auto,"Auto, 150, 200, 250, 300, 350","[PERF: HIGH | SCOPE: NEW GAME | LOAD: CPU+MEM]
+Sets how many constellations (star clusters) are generated.
+More constellations = more stars, more exploration.
+Fewer constellations = more empty space.",,,Galaxy
+wh_constellationScalingExponent,Constellation Scaling Exponent,Double,0.65,,"Scales constellation count with sector area.
+1.00 = area-proportional; lower = sparser.",0.60,1.10,Galaxy
+,,,,,,,,
+wh_poiScalingExponent,POI Scaling Exponent,Double,0.65,,"Scales with sector area (width×height):
+Remnant & Ruins coverage, Cryosleepers, Domain Mothership chains, Coronal Taps, Domain Probes and Derelict Survey Ships.
+1.00 = exactly proportional to area; <1.00 damps growth, >1.00 amplifies it.
+
+Soft caps: Remnants/Ruins max ×5; Cryo/Mothership/Taps max ×4. Not scaled: Derelict Probes/Survey Ships,
+caches (supply/equipment/weapons), research/mining stations, PK/LOCR specials, Solar Shades/Mirrors.
+Warning beacons grow only indirectly via the number of Remnant main systems.
+
+[Note:] Min/Max constellations for Ruins/Remnants scale separately, linearly with the global sector scale, not with this exponent.",0.60,1.00,Galaxy
+constellationCellSize,Constellation Density,Double,10,,"Controls how tightly constellations are packed.
+Lower values = denser clustering.",3,20,Galaxy
+constellationSize,System Spread,Double,2000,,"Sets the average distance between systems within a single constellation.",500,4000,Galaxy
+,,,,,,,,
+wh_edgeFalloffHeader,Edge Falloff (Random Systems),Header,Random System Edge Falloff,,,,,Galaxy
+wh_procgen_falloffStart,Edge Falloff: Start (random),Double,0.85,,"At what edge proximity (0–1) the pull-in begins.
+1.00 = no falloff; 0.85 = starts in the outer 15%%. Applies ONLY to randomly placed systems.",0,1,Galaxy
+wh_procgen_falloffFactor,Edge Falloff: Strength (random),Double,0.95,,"How strongly positions are pulled inward (0–1) after the start is reached.
+1.00 = no pull (stays near the edge), 0.80 = stronger pull. Only affects random systems.",0,1,Galaxy
+,,,,,,,,
+wh_hyperspaceHeader,Hyperspace effects,Header,Hyperspace effects,,,,,Galaxy
+wh_useVanillaHyperTextures,Vanilla Hyperspace Clouds,Radio,Off,"Off, On","Use the original Starsector hyperspace cloud textures. Only applies when 'Strange/Red Hyperspace' is Off.",,,Galaxy
+wh_enableStrangeHyperspace,Enable Strange Hyperspace,Radio,On,"On, Off","[PERF: MED | SCOPE: RUNTIME | LOAD: CPU+GPU | SAVE: SAFE]
+Activates the Strange Hyperspace expansion around dark star systems.
+On = enable Strange Hyperspace
+Off = disable the effect and revert all modified hyperspace tiles.",,,Galaxy
+wh_disableHyperspaceStorms,Disable hyperspace storms,Radio,Off,"Off, On","[PERF: MED | SCOPE: RUNTIME | LOAD: CPU | SAVE: SAFE*]
+Turns off storm penalties & strikes (new game recommended).
+Off = keep hyperspace storms",,,Galaxy
+wh_disableSlipstreams,Disable Slipstreams,Radio,Off,"Off, On","Turn hyperspace slipstreams off (vanilla & modded).
+Off = keep slipstreams.",,,Galaxy
+wh_abyssHeader,Hyperspace Abyss,Header,Hyperspace Abyss,,,,,Galaxy
+wh_abyssCoupling,Abyss Size Coupling,Double,0.75,,"Controls how strongly the dark 'Abyss' at the map edges scales with your Galaxy Size.
+
+1.00 = scales 1:1 with the galaxy
+0.75 = scales 75%% (a bit smaller than 1:1)
+0.00 = keeps vanilla size (no scaling)
+>1.00 = grows faster than the galaxy (larger abyss)
+
+[Recommended:] 0.75 for most players. Try 0.50 for very large galaxies to keep the abyss from getting too big.",0.0,2.0,Galaxy
+wh_abyssFadeCoupling,Abyss Edge Fade,Double,1.0,,"Controls how quickly the abyss darkness ramps up outside the visible map (the outer fade distance).
+
+1.00 = scales 1:1 with the galaxy
+0.80 = gentler fade (more visible space at the edge)
+0.00 = vanilla fade distance (no scaling)
+>1.00 = stronger edge darkness (faster fade)
+
+[Tip:] Keep this equal to 'Abyss Size Coupling' unless you want a different edge feel.",0.0,2.0,Galaxy
+,,,,,,,,
+wh_realisticHeader,Realistic Generation,Header,Realistic Generation,,,,,System Generation
+wh_generationMode,Generation Mode,Radio,Realistic,"Realistic, Vanilla","Switch between vanilla system contents and the astronomy-inspired generator. Only affects vanilla random systems.",,,System Generation
+,,,,,,,,
+wh_habitableWorldChance,Habitable Worlds Chance,Double,1.0,,"Multiplier for selecting habitable types (terran/jungle/water/arid) inside/near the HZ.",0.5,3.0,System Generation
+wh_systemBodyDensity,System Body Density,Double,1.0,,"Scales planets & moons per system after min/max.",0.5,2.0,System Generation
+wh_minPlanets,Minimum Planets,Int,7,,"Lower bound before density multiplier.",1,16,System Generation
+wh_maxPlanets,Maximum Planets,Int,11,,"Upper bound before density multiplier.",3,18,System Generation
+,,,,,,,,
+wh_chaoticChance,Chaotic Systems Chance,Double,0.10,,"Scrambled orbits, higher chance for a 2nd outer belt.",0.0,0.5,System Generation
+wh_rogueChance,Rogue Planet Chance,Double,0.03,,"Rare far-out planet on a very distant orbit.",0.0,0.10,System Generation
+wh_ageBiasIntensity,Age Bias Intensity,Double,1.0,,"YOUNG=>more giants/fewer habitable, OLD=>fewer giants/more habitable.",0.0,2.0,System Generation
+,,,,,,,,
+wh_giantRingChance,Giant Rings Chance,Double,0.63,,"Chance for ring bands around giants.",0.0,1.0,System Generation
+wh_brokenMoonChance,Broken Moon Chance,Double,0.13,,"One moon replaced by a debris ring.",0.0,1.0,System Generation
+wh_trojanRingletChance,Trojan Ringlets Chance,Double,0.37,,"Thin star-centric ringlets at giant orbit (L4/L5 feel).",0.0,1.0,System Generation
+wh_desiredStablePoints,Stable Locations (min),Int,0,,"Ensure at least this many stable locations exist.",0,3,System Generation
+,,,,,,,,
+#wh_useModdedPlanetTypes,Use Modded Planet Types,Boolean,false,,"Allow planet types from merged planets.json (other mods).",,,System Generation
+wh_modLuminosityFromSpec,Star Luminosity from Spec,Boolean,true,,"Estimate luminosity from star spec radius when type unknown (for modded stars).",,,System Generation
+,,,,,,,,
+wh_themesHeader,Special Themes,Header,Themed Constellations from Mods,,,,,System Generation
+BladeBreakerThemed_ConstellationMin_AS,Blade Breaker Min Clusters,Int,1,,"Minimum number of constellations with the Blade Breaker theme (requires DME mod).",0,10,System Generation
+BladeBreakerThemed_ConstellationMax_AS,Blade Breaker Max Clusters,Int,3,,"Maximum number of Blade Breaker themed constellations.",0,20,System Generation
+BladeBreakerThemed_ConstellationSkipProb_AS,Blade Breaker Skip Chance,Double,0.33,,"Chance that a Blade Breaker cluster is skipped. Lower = more frequent.",0,1,System Generation
+AgniThemed_ConstellationMin_AS,Agni Min Clusters,Int,1,,"Minimum number of Agni-themed constellations (requires prv Starworks mod).",0,10,System Generation
+AgniThemed_ConstellationMax_AS,Agni Max Clusters,Int,2,,"Maximum number of Agni-themed constellations.",0,20,System Generation
+AgniThemed_ConstellationSkip_AS,Agni Skip Chance,Double,0.25,,"CChance that an Agni-themed constellation is skipped.",0,1,System Generation
+,,,,,,,,
+wh_structuresHeader,Structures & Artifacts,Header,Structures & Artifacts,,,,,Structures
+mothershipChainCount,Mothership Chains,Int,3,,"Number of derelict mothership 'chains' (linked fleets) placed across the sector.",1,100,Structures
+ruinsCount,Ruin-Themed Systems,Int,20,,"How many constellations focus on ancient ruins and exploration targets.",0,100,Structures
+remnantCount,Remnant-Themed Systems,Int,10,,"[PERF: HIGH | SCOPE: NEW GAME | LOAD: CPU]
+Number of constellations that focus on Remnants (Ordos, Nexus, Redacted content).",0,100,Structures
+numCryo,Cryosleepers,Int,1,,"How many cryosleeper ships are placed. These are unique exploration targets with rare rewards.",0,100,Structures
+numCoronalTaps,Coronal Taps,Int,2,,"Number of high-tech coronal tap structures scattered across the galaxy.",0,100,Structures
+domainProbes,Domain Probes,Int,35,,"[PERF: LOW | SCOPE: NEW GAME | LOAD: CPU]
+Budget for Domain-era probe POIs. Scales with 'POI Scaling Exponent' and sector area.
+Soft cap: ×5 (set 0 to disable).",0,200,Structures
+surveyShips,Derelict Survey Ships,Int,12,,"[PERF: LOW | SCOPE: NEW GAME | LOAD: CPU]
+Budget for derelict survey ship POIs. Scales with 'POI Scaling Exponent' and sector area.
+Soft cap: ×5 (set 0 to disable).",0,200,Structures
+,,,,,,,,
+wh_gatesHeader,Gates,Header,Hyperspace Gate Placement,,,,,Gates & Travel
+minNonCoreGatesInSector,Min Non-Core Gates,Int,15,,"Minimum number of hyperspace gates placed outside the Core Worlds.",0,20,Gates & Travel
+maxNonCoreGatesInSector,Max Non-Core Gates,Int,20,,"Maximum number of hyperspace gates outside Core Worlds.",0,28,Gates & Travel
+wh_gateAreaExponent,Gate Area Scaling,Double,2.0,,"Exponent for area-based scaling of gate counts. 1.0 = width-linear, 2.0 = area-linear.",0.5,3.0,Gates & Travel
+wh_gateDensityMultiplier,Gate Density Multiplier,Double,1.0,,"Multiplies the final computed gate counts after scaling.",0.25,3.0,Gates & Travel
+minGatesToAddOnSecondPass,Second Pass Gates,Int,5,,"Extra gates added in a second placement pass, used for balancing remote systems.",0,10,Gates & Travel
+,,,,,,,,
+wh_difficultyHeader,Galaxy Density & Difficulty,Header,Exploration Difficulty Scaling,,,,,Difficulty & Density
+constellationSkipProb,Constellation Skip Chance,Double,0.15,,"Chance that a constellation is skipped during generation.
+Higher = fewer systems, more empty space.
+Lower = denser galaxy.",0,0.9,Difficulty & Density
+hyperspaceCloudsMod,Hyperspace Clouds Density,Double,0.7,,"[PERF: HIGH | SCOPE: RUNTIME | LOAD: GPU+CPU | SAVE: SAFE]
+Controls how many clouds/nebulae appear in hyperspace.
+Higher = harder travel, more sensor disruption.
+[Tip:] 0.6–0.8 recommended; 1.0 is expensive.",0,1,Difficulty & Density
+,,,,,,,,
+wh_advancedHeader,Advanced Settings,Header,Manual Overrides & Scaling,,,,,Advanced
+sectorWidth,Galaxy Width (Override),Double,164000,,"Override for total galaxy width. Ignored unless manually changed.",82000,656000,Advanced
+sectorHeight,Galaxy Height (Override),Double,104000,,"Override for total galaxy height. Ignored unless manually changed.",52000,416000,Advanced
+systemScaleMultiplier,System Scale (Override),Double,1,,"Override for system scaling (distance between planets etc).
+Leave at 1 for normal scale.",1,4,Advanced
+wh_enable_constellation_scaling,Auto Constellation Scaling,Radio,On,"On, Off","Automatically increases constellation count when the galaxy is larger.
+Recommended to keep enabled.",,,Advanced
+,,,,,,,,
+wh_discoveryHeader,Discovery,Header,Discovery,,,,,Discovery
+wh_enableDiscovery,Enable Discovery,Radio,Off,"Off, On","Turns the whole discovery system on or off.",,,Discovery
+wh_discoveryRevealUninhabited,Make uninhabited systems hidden until discovered,Radio,On,"On, Off","Uninhabited systems become discoverable on the map (mod system).",,,Discovery
+wh_expertDiscoveryHeader,Expert settings,Header,Expert settings,,,,,Discovery
+wh_hideProcgenSystems,Hide Procgen Systems,Radio,On,"On, Off","Hide generated systems until you discover their hyperspace jump anchor.",,,Discovery
+#wh_discoveryRadius,Discovery Radius,Double,0,,"0 = use normal sensor visibility; >0 = fixed detection range (game units).",0,6000,Discovery
+wh_discoveryIntervalMin,Discovery Check Interval (Min),Double,0.75,,"[PERF: HIGH | SCOPE: RUNTIME | LOAD: CPU | SAVE: SAFE]
+Minimum time between discovery checks (seconds). Use 0.75–1.25 for balanced cost.",0.05,2.0,Discovery
+#wh_discoveryIntervalMax,Discovery Check Interval (Max),Double,1.25,,"Maximum time between discovery checks (seconds).",0.10,2.0,Discovery
+wh_discoverySensorProfile,Jump Anchor Sensor Profile,Double,1500,,"How strong hidden jump anchors ping on sensors. Higher = easier to spot.",0,10000,Discovery
+wh_discoveryXP,Discovery XP,Int,250,,"XP gained when you discover something.",0,5000,Discovery
+wh_discoveryShowGenericMessage,Show 'Discovered' Message,Radio,Off,"Off, On","Show a small 'Discovered: X' pop-up.",,,Discovery
+#wh_discoveryInHyperspace,Discover in Hyperspace,Radio,Off,"On, Off","Enable discovery checks in hyperspace (jump anchors).",,,Discovery
+#wh_discoveryInsideSystems,Discover Inside Systems,Radio,Off,"Off, On","[PERF: MED | SCOPE: RUNTIME | LOAD: CPU]
+Enable discovery checks inside star systems.",,,Discovery
+wh_discoveryOnlyProcgen,Only Procgen Systems,Radio,On,"On, Off","Affect only procedurally generated systems (leave hand-placed ones).",,,Discovery
+wh_discoveryAffectsBeacons,Beacons Create Intel,Radio,On,"On, Off","Add an intel entry when discovering a warning beacon.",,,Discovery
+,,,,,,,,
+wh_salvageHeader,Loot & Salvage,Header,Loot & Salvage,,,,,Loot & Salvage
+wh_salvageNotes,Salvage Tweaks (how it works),Text,"[PERF: LOW | SCOPE: LOAD/NEW GAME | SAVE: SAFE]
+These sliders change how much loot you get from derelicts and stations.
+To apply changes: return to the main menu, adjust here, then load your save or start a new game.",,,,,Loot & Salvage
+,,,,,,,,
+wh_rare_item_rolls_mult,Rare loot rolls (hullmods & blueprints),Double,1.0,,"Multiplies the number of rare salvage rolls (modspecs/blueprints) from derelicts/stations.
+1.0 = vanilla amount, 1.5 = about 50%% more, 0.75 = about 25%% less.
+Takes effect after you set it in the main menu and then load a save or start a new game.",0.25,3.0,Loot & Salvage
+wh_supplies_fuel_mult,Supplies & Fuel amount,Double,1.0,,"Multiplies common salvage (supplies etc.) and fuel from derelicts/stations.
+1.0 = vanilla amount, 1.5 = about 50%% more, 0.75 = about 25%% less.
+Takes effect after you set it in the main menu and then load a save or start a new game.",0.5,3.0,Loot & Salvage

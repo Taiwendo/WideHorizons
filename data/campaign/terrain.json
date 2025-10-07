@@ -1,0 +1,48 @@
+{
+  "corona_jet": {
+    "plugin": "com.fs.starfarer.api.impl.campaign.terrain.StarCoronaTerrainPlugin",
+    "musicSuppression": 1,
+    "loopOne": "terrain_corona_am",
+    "loopTwo": "terrain_corona_am_flare"
+  },
+  "wh_void_star_terrain": {
+    "plugin": "org.widehorizons.campaign.terrain.WHVoidStarTerrainPlugin"
+  },
+  "wh_pulse_star_terrain": {
+    "plugin": "org.widehorizons.campaign.terrain.WHPulseStarTerrainPlugin"
+  },
+  "wh_pulse_star_hyperspace": {
+    "plugin": "org.widehorizons.campaign.terrain.WHPulseStarHyperspaceTerrainPlugin",
+    "type": "hyperspace",
+    "musicSuppression": 1
+  },
+  "wh_void_star_hyperspace": {
+    "plugin": "org.widehorizons.campaign.terrain.WHVoidStarHyperspaceTerrainPlugin",
+    "type": "hyperspace",
+    "musicSuppression": 1
+  },
+  "hyperspace": {
+    "plugin": "org.widehorizons.campaign.terrain.WHHyperspaceTerrainPlugin",
+    "type": "hyperspace",
+    "musicSuppression": 1
+  },
+  "wh_strange_terrain": {
+    "plugin": "org.widehorizons.campaign.terrain.WHStrangeTerrainPlugin",
+    "loopOne": "wh_strange_loop",
+    "type": "hyperspace",
+    "musicSuppression": 1
+  },
+  "nebula": {
+    "plugin": "com.fs.starfarer.api.impl.campaign.terrain.NebulaTerrainPlugin",
+    "loopOne": "terrain_nebula",
+    "musicSuppression": 1
+  },
+  "wh_pulsar_beam":{
+    "plugin":"org.widehorizons.world.effects.WHPulsarBeamTerrainPlugin",
+    "musicSuppression":1
+  },
+  "wh_system_abyss": {
+    "plugin": "org.widehorizons.world.effects.WHAbyssInSystemTerrainPlugin",
+    "musicSuppression": 1
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "playableFaction": false,
+  "corvusCompatible": true,
+
+  "startRelationships": {
+    "player": -1.0,
+    "hegemony": -1.0,
+    "tritachyon": -1.0,
+    "independent": -1.0,
+    "luddic_church": -1.0,
+    "luddic_path": -1.0,
+    "pirates": -1.0,
+    "persean_league": -1.0,
+    "persean": -1.0,
+    "sindrian_diktat": -1.0,
+    "remnant": -1.0,
+    "derelict": -1.0,
+    "neutral": -1.0
+  },
+
+  "maxRelationships": {
+    "player": -1.0,
+    "hegemony": -1.0,
+    "tritachyon": -1.0,
+    "independent": -1.0,
+    "luddic_church": -1.0,
+    "luddic_path": -1.0,
+    "pirates": -1.0,
+    "persean_league": -1.0,
+    "persean": -1.0,
+    "sindrian_diktat": -1.0,
+    "remnant": -1.0,
+    "derelict": -1.0,
+    "neutral": -1.0
+  },
+
+  "diplomacyPositiveChance": {},
+  "diplomacyNegativeChance": {},
+
+  "colonyExpeditionChance": 0
+}

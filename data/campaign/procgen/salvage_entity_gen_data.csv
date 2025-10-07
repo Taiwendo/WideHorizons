@@ -1,0 +1,8 @@
+id,rating,detection_range,type,autoXP,xpDiscover,xpSalvage,tags,drop_value,drop_random,defFaction,defQuality,probDefenders,minStr,maxStr,minSize,maxSize,probStation,stationRole
+wh_void_probe,0.25,1700,DISCOVERABLE,800,600,1600,,basic:3000,"ai_cores1:1,
+extended:1x1200,
+rare_tech_low:1",neutral,0,0,,,,,,
+wh_pulse_probe,0.5,1700,DISCOVERABLE,1200,1000,2400,,basic:4800,"supplies:2,
+any_hullmod_low:1,
+rare_tech_low:1,
+fuel:2",neutral,0,0,,,,,,

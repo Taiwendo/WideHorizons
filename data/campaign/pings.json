@@ -1,0 +1,22 @@
+{
+  "wh_pulse_anomaly_ping":{
+    "color":[165, 100, 225, 255],
+    "width":5,
+    "range":128,
+    "duration":1,
+    "invert":false,
+
+    "num":3,
+    "delay":0.25
+  },
+  "wh_void_anomaly_ping":{
+    "color":[165, 100, 225, 255],
+    "width":5,
+    "range":128,
+    "duration":1,
+    "invert":false,
+
+    "num":3,
+    "delay":0.25
+  }
+}
