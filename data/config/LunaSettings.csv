@@ -58,9 +58,10 @@ wh_procgen_falloffFactor,Edge Falloff: Strength (random),Double,0.95,,"How stron
 wh_hyperspaceHeader,Hyperspace effects,Header,Hyperspace effects,,,,,Galaxy
 wh_useVanillaHyperTextures,Vanilla Hyperspace Clouds,Radio,Off,"Off, On","Use the original Starsector hyperspace cloud textures. Only applies when 'Strange/Red Hyperspace' is Off.",,,Galaxy
 wh_enableStrangeHyperspace,Enable Strange Hyperspace,Radio,On,"On, Off","[PERF: MED | SCOPE: RUNTIME | LOAD: CPU+GPU | SAVE: SAFE]
-Activates the Strange Hyperspace expansion around dark star systems.
-On = enable Strange Hyperspace
-Off = disable the effect and revert all modified hyperspace tiles.",,,Galaxy
+Controls the Strange Hyperspace around dark-star systems.
+On = Full behavior: spreads at ~30-day intervals (unlimited).
+Off = Limited mode: visuals/intel stay active; spread may proceed for at most a few ticks (each ~30 days) then freezes. Existing changes remain; nothing is reverted.
+Can be toggled mid-save; turning On later resumes spread.",,,Galaxy
 wh_disableHyperspaceStorms,Disable hyperspace storms,Radio,Off,"Off, On","[PERF: MED | SCOPE: RUNTIME | LOAD: CPU | SAVE: SAFE*]
 Turns off storm penalties & strikes (new game recommended).
 Off = keep hyperspace storms",,,Galaxy
@@ -160,7 +161,7 @@ wh_discoveryIntervalMin,Discovery Check Interval (Min),Double,0.75,,"[PERF: HIGH
 Minimum time between discovery checks (seconds). Use 0.75–1.25 for balanced cost.",0.05,2.0,Discovery
 #wh_discoveryIntervalMax,Discovery Check Interval (Max),Double,1.25,,"Maximum time between discovery checks (seconds).",0.10,2.0,Discovery
 wh_discoverySensorProfile,Jump Anchor Sensor Profile,Double,1500,,"How strong hidden jump anchors ping on sensors. Higher = easier to spot.",0,10000,Discovery
-wh_discoveryXP,Discovery XP,Int,250,,"XP gained when you discover something.",0,5000,Discovery
+#wh_discoveryXP,Discovery XP,Int,250,,"XP gained when you discover something.",0,750,Discovery
 wh_discoveryShowGenericMessage,Show 'Discovered' Message,Radio,Off,"Off, On","Show a small 'Discovered: X' pop-up.",,,Discovery
 #wh_discoveryInHyperspace,Discover in Hyperspace,Radio,Off,"On, Off","Enable discovery checks in hyperspace (jump anchors).",,,Discovery
 #wh_discoveryInsideSystems,Discover Inside Systems,Radio,Off,"Off, On","[PERF: MED | SCOPE: RUNTIME | LOAD: CPU]
