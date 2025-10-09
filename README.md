@@ -1,4 +1,5 @@
 # Wide Horizons
+![GitHub Release](https://img.shields.io/github/v/release/Taiwendo/WideHorizons?include_prereleases&color=blue)
 
 **Wide Horizons** expands the Starsector universe with bigger, stranger star systems,
 mysterious Dark Stars and atmospheric hyperspace phenomena, made for players who want more exploration, mystery and loot.
