@@ -1,5 +1,5 @@
 # Wide Horizons
-![GitHub Release](https://img.shields.io/github/v/release/Taiwendo/WideHorizons?include_prereleases&color=blue) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Taiwendo/WideHorizons/total?style=for-the-badge&label=Download%20Wide%20Horizons&color=blue)
+![GitHub Release](https://img.shields.io/github/v/release/Taiwendo/WideHorizons?include_prereleases&style=for-the-badge&color=blue) ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Taiwendo/WideHorizons/total?style=for-the-badge&label=Download%20Wide%20Horizons&color=blue)
 
 
 **Wide Horizons** expands the Starsector universe with bigger, stranger star systems,
