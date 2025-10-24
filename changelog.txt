@@ -1,3 +1,109 @@
+Version 1.3.0 (October 2025)
+
+Eidolon Update
+    New, unexplained phenomena can occur in certain systems.
+    Strange fleets may appear with unfamiliar behavior.
+    Battles against them feel different from anything else in the Sector.
+    Aftermath of these encounters will not be what you expect.
+    Unique atmosphere and music included.
+Be prepared… or don’t. You’ll find out when it happens.
+
+Core recognition update
+    Improved detection of „Core Worlds“ (no settings changed):
+    Vanilla core worlds stay the same.
+    Modded capital systems are now auto-recognized via tags or inhabited markets.
+    Mod authors can explicitly register their capitals as „core“ via the new API.
+Result: Core worlds keep using the dedicated core scaling (as before), but this now reliably applies to modded cores as well.
+Note: It's not final yet, there may still be mistakes.
+
+AI behavior adjusted
+    The AI now responds correctly to changes made in the wide horizon.
+    This applies to Abyss, Deep Hyperspace storms, and Strange Hyperspace.
+
+Hyperspace visuals & mod compatibility
+    Fixed double-drawn hyperspace (compatibility with mods like Erexeus Tech Complex):
+        Wide Horizons now recognizes when another mod adds its own small, PNG-based hyperspace patch (e.g., around horizonVortex)
+        and lets that render as intended without repainting the whole hyperspace a second time.
+    Result: no overlaid or mirrored second layer; ETC’s spiral mask shows correctly.
+
+System-safe behavior:
+    Hyperspace terrain that lives inside star systems now uses the mod’s tiles exactly as provided (no Wide Horizons extras), preventing unintended visuals in local/system scenes.
+    Single main hyperspace layer: Internally, the game now picks exactly one “main” hyperspace layer for Wide Horizons to generate the big cloud backdrop;
+    all other hyperspace terrains from mods act as overlays only.
+
+Reliability & polish
+    Safer startup order: Wide Horizons initializes its hyperspace once, avoids conflicting re-initializations, and cooperates with mods that place their own effects.
+    Cleaner logs: Startup messages are clearer; one main hyperspace init is reported, and small overlays identify themselves as such.
+
+Dark Star systems
+    Content unchanged; planets and moons still use the lore name pool.
+    Only the internal IDs changed to match vanilla for maximum stability.
+
+Salvage & points of interest
+    Derelicts/wrecks now use fully unique IDs per system, preventing edge cases with salvage, intel, and scanning.
+
+Stability & compatibility
+    Added a smart Bypass Window so older mods (like ASS) can place content first fewer worldgen crashes.
+    Fixed a crash when using Wide Horizons together with What We Left Behind and ArthrsShipsNShit (ASS).
+    Clearer error messages now point to the exact mod if something still fails.
+    Removed legacy internal “dedupe/ID utility” code; system placement logic made idempotent to avoid repeat registrations.
+    Overall compatibility with other sector-expanding mods is improved.
+
+Worldgen Tweaks
+    More balanced spread of Derelicts, Ruins, Remnants, Misc.
+    Cryosleepers and inactive gates placed more sensibly.
+    Remnant beacons space out better on larger sectors.
+
+Hotfix: Slipstreams
+    Fixed an issue where some slipstreams stayed permanent or static, especially near the Abyss.
+    The game now correctly resets and cycles slipstreams as intended.
+    Existing “frozen” streams will start moving again after a few in-game weeks.
+
+Hotfix: Dark Star & Colony List
+    Fixed a rare issue where a newly founded colony could fail to appear in the colony overview.
+    Cause: duplicate hidden planet tokens from internal ID conflicts.
+    Fix: all planets and moons now use the vanilla auto-ID system, eliminating duplicates and improving mod compatibility.
+
+Hotfix: Discovery Mode
+    Fixed crash when using features that open dialogs during hyperspace (e.g., Industrial Evolution’s fleet detachment) while Discovery Mode was enabled.
+    Discovery Mode is now UI-only: hidden systems are only hidden on the map for the player.
+    The AI and other mods can still see and interact with all systems normally.
+    No more weird log spam from legacy dialog hooks. Removed the old workaround that could cause warnings.
+    Smoother reveals: systems reliably reappear on the map once you discover or enter them.
+
+Hotfix: Theme Generator Compatibility
+    Fixed: An issue where HMI systems “Seele” and “Mansa” could fail to appear in new games.
+        Our theme generation now correctly integrates mod-registered generators (e.g., HMIThemeGenerator) into Wide Horizons’ pipeline.
+    Compatibility: Improved support for mods that add content via theme-based system generation. This reduces the chance of missing themed systems in the outer sector.
+    Stability: No balance changes; this is a generation-phase fix only.
+Note: You’ll need to start a new game to see the effect, since sector generation happens at game start.
+
+Hotfix: Abyss Seam
+    Improved how the game samples and covers map tiles at the Abyss boundary to remove tiny gaps.
+
+Hotfix:
+    Fixed an issue where only a very small number of warning beacons were generated in hyperspace.
+    Beacon generation now correctly scales with sector size and matches vanilla behavior more closely.
+    Players will encounter the expected variety of low, medium, and high-level warning beacons across the sector.
+
+Special thanks to all reporters and bugatti_echelon for reporting and helping track down the issue!
+
+Expanded system scaling support added
+    Emergent Threats: IX Revival
+        Zorya, Danu
+
+    Roider Union
+        Atka, Attu, Kiska (nebula system), Ounalashka
+
+    Diktat Enhancement
+        Andor, Hesiod
+
+    EUROPA FEDERATION
+        Europa, Carthag
+
+    Novum Agrum Extractions
+        Hadley
+
 Version 1.2.9d (September 2025)
 
 Compatibility
