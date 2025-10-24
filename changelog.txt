@@ -1,5 +1,7 @@
 Version 1.3.0 (October 2025)
 
+Important: v1.3.x is Not Save-Compatible with older version 1.2.x
+
 Eidolon Update
     New, unexplained phenomena can occur in certain systems.
     Strange fleets may appear with unfamiliar behavior.
