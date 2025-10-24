@@ -4,13 +4,14 @@
   "modThreadId": 33348,
   "modVersion": {
     "major": 1,
-    "minor": 2,
-    "patch": 9d
+    "minor": 3,
+    "patch": 0
   },
-  "directDownloadURL": "https://drive.google.com/uc?export=download&id=1bI7-s6tnRkC69BgfKkRp5iVTrqB3bHAb",
+  "directDownloadURL": "https://github.com/Taiwendo/WideHorizons/releases/download/v1.3.0/Wide.Horizons.v1.3.0.zip",
 
   "changelogURL": "https://raw.githubusercontent.com/Taiwendo/WideHorizons/refs/heads/main/changelog.txt",
 }
+
 
 
 
