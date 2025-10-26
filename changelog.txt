@@ -1,3 +1,10 @@
+Version 1.3.0b (October 2025)
+
+Save compatible with 1.3.x
+
+Fixed:
+    Echo Fleet UI crash from the status slot of a module in “FleetMemberStatus”.
+
 Version 1.3.0a (October 2025)
 
 Save compatible with 1.3.x
