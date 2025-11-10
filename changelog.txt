@@ -1,3 +1,15 @@
+Version 1.3.0d (November 2025)
+
+Save compatible with 1.3.x
+
+Modified:
+    Intel Mark added for the probes needed for calibration.
+
+Fixed:
+    Bug in the Echo fleet fixed with modular ships.
+    The problem that rogue planets were created with NULL has been fixed.
+    Mission entry after a new game has been fixed.
+
 Version 1.3.0c (October 2025)
 
 IMPORTANT: Reset LunaSetting to default once. (important values have been changed)
