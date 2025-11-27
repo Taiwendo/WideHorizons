@@ -1,3 +1,20 @@
+Version 1.3.0e (November 2025)
+
+Save compatible with 1.3.x
+IMPORTANT: Reset LunaSetting to default once. (important values have been changed)
+
+Modified:
+    Fuel scaling added:
+        This allows you to better adjust consumption for users who find it too difficult to reach distant locations.
+    Mission timer adjustment added:
+        This scales the mission timer based on the size of the galaxy, giving you more time to reach distant locations.
+    Realistic system generation adjusted:
+        Dust rings and asteroid rings are generated better.
+        Moons are now generated more frequently and appropriately.
+
+Fixed:
+    Fixed a bug in the ship config (thanks to sabledrake)
+
 Version 1.3.0d (November 2025)
 
 Save compatible with 1.3.x
