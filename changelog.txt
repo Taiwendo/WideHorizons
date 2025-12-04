@@ -1,3 +1,16 @@
+Version 1.3.0f (December 2025)
+
+Save compatible with 1.3.x
+
+Modified:
+    Added additional mod systems for scaling
+
+Fixed:
+    Echo Fleet recovery fix (thanks to emptinis)
+    The issue with loot spawning in Disengage has been fixed. (thanks to emptinis)
+    Strange Hyperspace no longer causes damage when you are moving slowly
+    Further illogical generation on systems improved
+
 Version 1.3.0e_fix (November 2025)
 
 Save compatible with 1.3.x
