@@ -1,4 +1,4 @@
-Version 1.0 (December 2025)
+Version 1.0.0 (December 2025)
 
 Savegame Compatible:
 Not compatible with the normal version.
