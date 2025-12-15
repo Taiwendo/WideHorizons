@@ -1,3 +1,17 @@
+Version 1.0.0a (December 2025)
+
+Savegame Compatible:
+    Not compatible with the normal version
+    Save compatible with basic 1.0.x
+
+Modified:
+    System generation adjusted/fixed so that placement and conditions are more accurate. (Thanks to SesameSeednt)
+    Description of Luna settings improved
+    Nexerelin Mission Scaling added
+
+Fixed:
+    Mission time scaling has been adjusted and a bug has been fixed that repeatedly rescaled the mission after loading
+
 Version 1.0.0 (December 2025)
 
 Savegame Compatible:
