@@ -5,8 +5,8 @@
   "modVersion": {
     "major": 1,
     "minor": 0,
-    "patch": 0a
+    "patch": 0b
   },
-  "directDownloadURL": "https://github.com/Taiwendo/WideHorizons/releases/download/v1.3.0g/Wide.Horizons.Basic.v1.0.0a.zip",
+  "directDownloadURL": "https://github.com/Taiwendo/WideHorizons/releases/download/Basic_v1.0.0b/Wide.Horizons.Basic.v1.0.0b.zip",
   "changelogURL": "https://raw.githubusercontent.com/Taiwendo/WideHorizons/refs/heads/main/changelog_basic.txt"
 }
