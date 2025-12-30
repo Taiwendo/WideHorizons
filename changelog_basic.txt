@@ -1,3 +1,16 @@
+Version 1.0.0b (December 2025)
+
+Savegame Compatible:
+    Not compatible with the normal version
+    Save compatible with basic 1.0.x
+	
+Modified:
+    New Luna settings such as "Constellation Count" now have a custom setting
+    You can now set Galaxy Autoscaling to be smaller than Vanilla (may lead to strange side effects)
+
+Fixed:
+    Gate generation has been adjusted/fixed so that it is 100% vanilla functionality
+
 Version 1.0.0a (December 2025)
 
 Savegame Compatible:
