@@ -1,3 +1,15 @@
+Version 1.0.0c (February 2026)
+
+Savegame Compatible:
+    Not compatible with the normal version
+    Save compatible with basic 1.0.x
+
+Modified:
+
+Fixed:
+	Fixed an issue with the positioning of the systems from the mods "Apex Design Collective" and "Bultach Coalition"
+    Realistic planet generator made more compatible with “Unknown Skies” so that no strange majorities arise
+
 Version 1.0.0b (December 2025)
 
 Savegame Compatible:
