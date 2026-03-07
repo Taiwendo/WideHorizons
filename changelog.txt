@@ -1,3 +1,30 @@
+Version 1.3.1 (March 2026)
+
+Save compatible with 1.3.x
+
+Modified:
+    Mission will continue with new content
+    New Luna settings such as "Constellation Count" now have a custom setting
+    You can now set Galaxy Autoscaling to be smaller than Vanilla (may lead to strange side effects)
+    The "San Batavia Republic" mod has been added for the scaling system
+    Luna settings descriptions adjusted so that some points are now clearer
+    New feature added for Remnant Low/Medium Danger settings
+
+Fixed:
+    Mission sequences completely rebuilt and adapted
+    Realistic planet generator made more compatible with "Unknown Skies" so that no strange majorities arise
+    Fixed an issue with the positioning of the systems from the mods "Apex Design Collective" and "Bultach Coalition"
+    Gate generation has been adjusted/fixed so that it is 100% vanilla functionality
+    The Strange Hyperspace effect is no longer executed in pause mode
+    Echo Fleet fix for ship recovery
+    Portraits adjusted to fit better
+    UAF Custom start Ship IDs fixed
+    Fixed the "RingBand.writeReplace" error
+
+Savegame optimization:
+    Strange Hyperspace is now saved as a "byte" instead of a "boolean", which significantly reduces the savegame size
+    This speeds up saving and loading (Duplicates are deleted from old savegames after saving)
+
 Version 1.3.0g (December 2025)
 
 Save compatible with 1.3.x
