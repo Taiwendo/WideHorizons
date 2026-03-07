@@ -1,3 +1,17 @@
+Version 1.0.1 (March 2026)
+
+Savegame Compatible:
+    Not compatible with the normal version
+    Save compatible with basic 1.0.x
+
+Modified:
+	The "San Batavia Republic" mod has been added for the scaling system
+	Luna settings descriptions adjusted so that some points are now clearer
+    New feature added for Remnant Low/Medium Danger settings
+
+Fixed:
+	Fixed the "RingBand.writeReplace" error
+
 Version 1.0.0c (February 2026)
 
 Savegame Compatible:
