@@ -1,3 +1,14 @@
+Version 1.3.1b (March 2026)
+
+Save compatible with 1.3.x
+
+Modified:
+    Many popular Fossic mods will be added in the scaling
+
+Fixed:
+    Custom Start Ship Fixed
+    Mission sequence fixed
+
 Version 1.3.1a (March 2026)
 
 Save compatible with 1.3.x
