@@ -1,3 +1,43 @@
+Version 1.4.0 (June 2026)
+
+NOT Savegame compatible with 1.3.x
+
+Modified:
+    New Dark Star content added
+    The mission/quest line system has been completely overhauled and restructured
+    The EidolON faction is no longer displayed
+    Changes to the Darkstar systems regarding their descriptions
+    Void and Pulse damage now occurs only in Strange Hyperspace FX cells
+    Old temporary sensor mods will be removed during the next script cleanup
+    Only Procgen Systems = On
+        - Only genuine vanilla/engine procgen systems are hidden.
+    Only Procgen Systems = Off
+        - Mod systems without a visible population market are also hidden.
+    Black Project Custom Start
+        - Increased mission timers for longer travel distances
+        - Added separate outbound and return deadlines
+        - Added mission payments, fuel, and supplies for the investigation
+        - Improved mission cleanup after reporting findings
+    The system generation has been improved so that planets can no longer form outside the system
+    A feature has been added to import the externalized texts so that they can then be translated
+	Support for the Old China Version from RAT v2.6.10
+
+    New systems that are supported
+        - 40k Banished Imperium
+        - REDACTED BULLSHIT PACK
+        - Navarchy of Tania
+
+Fixed:
+    Mission sequence fixed
+    Performance fixes and adjustments to functions that can no longer be loaded twice
+    No longer applies a persistent debuff after exiting
+    No longer deals Pulse Storm damage in normal star systems
+    No longer causes random hits due to coordinate overlap between hyperspace and star systems
+    Fixed repeated "Report Findings" option after mission completion
+    The Remnants warning beacon has been adjusted and fixed
+
+A huge thank you to "Reshy" and "nicholas_cox" for submitting so many reports
+
 Version 1.3.1b (March 2026)
 
 Save compatible with 1.3.x
