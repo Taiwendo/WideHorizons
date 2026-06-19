@@ -1,3 +1,27 @@
+Version 1.0.3 (June 2026)
+
+Savegame Compatible:
+    Not compatible with the normal version
+    Save compatible with basic 1.0.x
+	
+Modified:
+    Only Procgen Systems = On
+        - Only genuine vanilla/engine procgen systems are hidden.
+    Only Procgen Systems = Off
+        - Mod systems without a visible population market are also hidden.
+    The system generation has been improved so that planets can no longer form outside the system
+	Support for the Old China Version from RAT v2.6.10
+
+    New systems that are supported
+        - 40k Banished Imperium
+        - REDACTED BULLSHIT PACK
+        - Navarchy of Tania
+
+Fixed:
+    The Remnants warning beacon has been adjusted and fixed
+
+A huge thank you to "Reshy" and "nicholas_cox" for submitting so many reports
+
 Version 1.0.2 (March 2026)
 
 Savegame Compatible:
