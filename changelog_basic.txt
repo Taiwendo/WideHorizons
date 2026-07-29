@@ -14,7 +14,6 @@ Modified:
     Nebula generation has been adjusted and aligned with the Realistic generator
     The fuel compensation function has been adjusted
     Added a new feature for supply compensation
-    Added a new feature to Custom Start to enable and disable alliance joining in the UAF
     Added a feature to disable the hyperspace music from Wide Horizons
     (other audio mods that change the hyperspace tracks are supported)
 
