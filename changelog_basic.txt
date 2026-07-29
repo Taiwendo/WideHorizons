@@ -1,3 +1,27 @@
+Version 1.0.4 (July 2026)
+
+Savegame Compatible:
+    Not compatible with the normal version
+    Save compatible with basic 1.0.x
+
+Modified:
+    Luna Settings has been redesigned and made easier to understand
+    Added a new performance mode for sector generation
+    Added a small performance feature to turn the nebula on and off on the Starscape map for a little better performance
+    Improved sector generation for better performance in all modes
+    BladeBreaker and Agni are now scaled using the default values
+    Old background textures removed
+    Nebula generation has been adjusted and aligned with the Realistic generator
+    The fuel compensation function has been adjusted
+    Added a new feature for supply compensation
+    Added a new feature to Custom Start to enable and disable alliance joining in the UAF
+    Added a feature to disable the hyperspace music from Wide Horizons
+    (other audio mods that change the hyperspace tracks are supported)
+
+Fixed:
+    Agni Mod ID fix
+    System Fog is now generated correctly
+
 Version 1.0.3 (June 2026)
 
 Savegame Compatible:
