@@ -1,3 +1,16 @@
+Version 1.4.1a (August 2026)
+
+Save compatible with 1.4.x
+
+IMPORTANT: Please reset the settings when starting a new game, as some values have changed to their default settings
+
+Modified:
+Remnant generation adjusted and improved
+Added mod support for "Project MISTRAL" to add scaling
+
+Fixed:
+Fixed Remnant generation with the Beacons
+
 Version 1.4.1 (July 2026)
 
 Save compatible with 1.4.x
