@@ -1,3 +1,18 @@
+Version 1.0.5 (August 2026)
+
+Savegame Compatible:
+Not compatible with the normal version
+Save compatible with basic 1.0.x
+
+IMPORTANT: Please reset the settings when starting a new game, as some values have changed to their default settings
+
+Modified:
+Remnant generation adjusted and improved
+Added mod support for "Project MISTRAL" to add scaling
+
+Fixed:
+Fixed Remnant generation with the Beacons
+
 Version 1.0.4 (July 2026)
 
 Savegame Compatible:
