@@ -1,3 +1,22 @@
+Version 1.4.2 (September 2026)
+
+Save compatible with 1.4.x
+
+IMPORTANT: Please reset the settings when starting a new game, as some values have changed to their default settings
+
+Modified:
+    New adjustments to the Realistic System Generator
+    New settings for all vanilla star systems based on the number of planets
+    System post-processing is no longer handled individually but is now passed to the Vanilla API
+
+Fixed:
+    Issues with planetary bodies have been fixed
+    There are no longer any gas/ice giants that are too small; size data now comes from the Vanilla API
+    System sizes are now calculated correctly so that no planetary objects overlap
+
+Note:
+    I'm counting on your feedback to help me adjust the default settings for the current system sizes.
+
 Version 1.4.1a (August 2026)
 
 Save compatible with 1.4.x
