@@ -1,3 +1,17 @@
+Version 1.4.2a (October 2026)
+
+Save compatible with 1.4.x
+
+Modified:
+	The Core World Scaler has been improved
+
+Fixed:
+	The WWLB magnetar system is now being moved correctly
+	
+	
+Note:
+	I'm counting on your feedback to help me adjust the default settings for the current system sizes.
+
 Version 1.4.2 (September 2026)
 
 Save compatible with 1.4.x
