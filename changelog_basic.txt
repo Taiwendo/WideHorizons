@@ -1,3 +1,19 @@
+Version 1.0.6b (October 2026)
+
+Savegame Compatible:
+	Not compatible with the normal version
+	Save compatible with basic 1.0.x
+
+Modified:
+	New mod support added: Maelstrom The Nomads, Domain Historical Society, Tyrador Safeguard Coalition
+
+Fixed:
+
+	
+	
+Note:
+	I'm counting on your feedback to help me adjust the default settings for the current system sizes.
+
 Version 1.0.6a (October 2026)
 
 Savegame Compatible:
