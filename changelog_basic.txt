@@ -1,3 +1,12 @@
+Version ATTENTION (November 2026)
+
+Summarized in a mod
+Unfortunately, save files from the old BASIC version are no longer compatible with the new version.
+
+The BASIC version as it has existed until now will no longer be maintained.
+
+
+
 Version 1.0.6c (November 2026)
 
 Savegame Compatible:
