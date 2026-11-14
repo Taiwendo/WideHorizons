@@ -1,3 +1,34 @@
+Version 1.5.0 (November 2026)
+
+Not Save compatible with 1.4.x
+
+IMPORTANT: Please reset the settings when starting a new game, as some values have changed to their default settings
+
+Modified:
+	Migrated Wide Horizons to Java 17
+	Split Wide Horizons into Core and an optional Content module
+	Core includes sector generation and scaling and can be used on its own
+	Content requires Core and adds missions, Dark Star systems, and Eidolon content
+	Removed the countdown from the third Strange Hyperspace mission, which has no time limit
+
+Fixed:
+	Sector generation no longer stalls if derelict probes or survey ships cannot be placed
+	Fixed hyperspace terrain clearing around fixed star systems when scaling the sector
+	The research team now waits for the decoder before starting its analysis and delivers the results only once
+	The follow-up contact now verifies that the correct market is still available
+	The final briefing can be retried if the decoder could not be awarded
+	Salvage bonuses now update when scaling settings change
+	Disabling fuel scaling clears leftover fuel modifiers from Wide Horizons
+	Loading a campaign now restores missing scripts that keep campaign bonuses up to date
+	Eidolon Server Hub bonuses now pause during construction or disruption
+	Duplicate AI cores no longer stack their bonuses
+	The salvage reset command now clears Wide Horizons bonuses from both the fleet and the player while preserving bonuses from other mods
+
+Note:
+    I'm counting on your feedback to help me adjust the default settings for the current system sizes.
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
 Version 1.4.2c (November 2026)
 
 Save compatible with 1.4.x
