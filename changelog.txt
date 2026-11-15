@@ -5,74 +5,73 @@ Not Save compatible with 1.4.x
 IMPORTANT: Please reset the settings when starting a new game, as some values have changed to their default settings
 
 Modified:
-	Migrated Wide Horizons to Java 17
-	Split Wide Horizons into Core and an optional Content module
-	Core includes sector generation and scaling and can be used on its own
-	Content requires Core and adds missions, Dark Star systems, and Eidolon content
-	Removed the countdown from the third Strange Hyperspace mission, which has no time limit
-	
+    Migrated Wide Horizons to Java 17
+    Split Wide Horizons into Core and an optional Content module
+    Core includes sector generation and scaling and can be used on its own
+    Content requires Core and adds missions, Dark Star systems, and Eidolon content
+    Removed the countdown from the third Strange Hyperspace mission, which has no time limit
+
 Fixed:
-	Sector generation no longer stalls if derelict probes or survey ships cannot be placed
-	Fixed hyperspace terrain clearing around fixed star systems when scaling the sector
-	The research team now waits for the decoder before starting its analysis and delivers the results only once
-	The follow-up contact now verifies that the correct market is still available
-	The final briefing can be retried if the decoder could not be awarded
-	Salvage bonuses now update when scaling settings change
-	Disabling fuel scaling clears leftover fuel modifiers from Wide Horizons
-	Loading a campaign now restores missing scripts that keep campaign bonuses up to date
-	Eidolon Server Hub bonuses now pause during construction or disruption
-	Duplicate AI cores no longer stack their bonuses
-	The salvage reset command now clears Wide Horizons bonuses from both the fleet and the player while preserving bonuses from other mods
-	
+    Sector generation no longer stalls if derelict probes or survey ships cannot be placed
+    Fixed hyperspace terrain clearing around fixed star systems when scaling the sector
+    The research team now waits for the decoder before starting its analysis and delivers the results only once
+    The follow-up contact now verifies that the correct market is still available
+    The final briefing can be retried if the decoder could not be awarded
+    Salvage bonuses now update when scaling settings change
+    Disabling fuel scaling clears leftover fuel modifiers from Wide Horizons
+    Loading a campaign now restores missing scripts that keep campaign bonuses up to date
+    Eidolon Server Hub bonuses now pause during construction or disruption
+    Duplicate AI cores no longer stack their bonuses
+    The salvage reset command now clears Wide Horizons bonuses from both the fleet and the player while preserving bonuses from other mods
+
 Note:
-	I'm counting on your feedback to help me adjust the default settings for the current system sizes.
-	
+    I'm counting on your feedback to help me adjust the default settings for the current system sizes.
+
 -------------------------------------------------------------------------------------------------------------------------------------------
-	
+
 Version 1.4.2c (November 2026)
 
 Save compatible with 1.4.x
 
 Modified:
-	Updated Wide Horizons for the latest Starsector release, including Survival Mode
-	Derelict ships now follow Survival Mode’s recovery and condition rules
-	Remnant systems are less likely to be skipped during sector generation
-	
+    Updated Wide Horizons for the latest Starsector release, including Survival Mode
+    Derelict ships now follow Survival Mode’s recovery and condition rules
+    Remnant systems are less likely to be skipped during sector generation
+
 Fixed:
-	Coronal Taps can now spawn in fallback systems when preferred systems are unavailable
-	Fixed a map rendering issue affecting Strange Hyperspace
-	Fixed a bug that could apply Strange Void or Strange Pulse effects more than once
-	
+    Coronal Taps can now spawn in fallback systems when preferred systems are unavailable
+    Fixed a map rendering issue affecting Strange Hyperspace
+    Fixed a bug that could apply Strange Void or Strange Pulse effects more than once
+
 Note:
-	I'm counting on your feedback to help me adjust the default settings for the current system sizes.
-	
+    I'm counting on your feedback to help me adjust the default settings for the current system sizes.
+
 Version 1.4.2b (October 2026)
 
 Save compatible with 1.4.x
 
 Modified:
-	New mod support added: Maelstrom The Nomads, Domain Historical Society, Tyrador Safeguard Coalition
-	
+    New mod support added: Maelstrom The Nomads, Domain Historical Society, Tyrador Safeguard Coalition
+
 Fixed:
 
 
 Note:
-	I'm counting on your feedback to help me adjust the default settings for the current system sizes.
-	
+    I'm counting on your feedback to help me adjust the default settings for the current system sizes.
+
 Version 1.4.2a (October 2026)
 
 Save compatible with 1.4.x
 
 Modified:
-	The Core World Scaler has been improved
-	
-Fixed:
-	The WWLB magnetar system is now being moved correctly
-	
-	
-Note:
-	I'm counting on your feedback to help me adjust the default settings for the current system sizes.
+    The Core World Scaler has been improved
 
+Fixed:
+    The WWLB magnetar system is now being moved correctly
+
+
+Note:
+    I'm counting on your feedback to help me adjust the default settings for the current system sizes.
 
 Version 1.4.2 (September 2026)
 
@@ -100,11 +99,11 @@ Save compatible with 1.4.x
 IMPORTANT: Please reset the settings when starting a new game, as some values have changed to their default settings
 
 Modified:
-Remnant generation adjusted and improved
-Added mod support for "Project MISTRAL" to add scaling
+    Remnant generation adjusted and improved
+    Added mod support for "Project MISTRAL" to add scaling
 
 Fixed:
-Fixed Remnant generation with the Beacons
+    Fixed Remnant generation with the Beacons
 
 Version 1.4.1 (July 2026)
 
@@ -151,7 +150,7 @@ Modified:
         - Improved mission cleanup after reporting findings
     The system generation has been improved so that planets can no longer form outside the system
     A feature has been added to import the externalized texts so that they can then be translated
-	Support for the Old China Version from RAT v2.6.10
+    Support for the Old China Version from RAT v2.6.10
 
     New systems that are supported
         - 40k Banished Imperium
@@ -241,13 +240,6 @@ Fixed:
     Strange Hyperspace no longer causes damage when you are moving slowly
     Further illogical generation on systems improved
 
-Version 1.3.0e_fix (November 2025)
-
-Save compatible with 1.3.x
-
-HotFix:
-The moon generation has been fixed so that there are no longer too many small moons
-
 Version 1.3.0e (November 2025)
 
 Save compatible with 1.3.x
@@ -264,6 +256,7 @@ Modified:
 
 Fixed:
     Fixed a bug in the ship config (thanks to sabledrake)
+
 
 Version 1.3.0d (November 2025)
 
@@ -306,8 +299,6 @@ Modified:
     Added 2 missing systems from the “Orky Sector (Formally Looted Sector)” mod for scaling.
 
 Version 1.3.0 (October 2025)
-
-Important: v1.3.x is Not Save-Compatible with older version 1.2.x
 
 Eidolon Update
     New, unexplained phenomena can occur in certain systems.
@@ -416,8 +407,8 @@ Expanded system scaling support added
 Version 1.2.9d (September 2025)
 
 Compatibility
-	Fixed a placement issue with Jaydee Piracy systems
-	(Dory, Grin, Hiroc) that could appear in the wrong spot.
+    Fixed a placement issue with Jaydee Piracy systems
+    (Dory, Grin, Hiroc) that could appear in the wrong spot.
 
 Version 1.2.9c (September 2025)
 
@@ -453,39 +444,39 @@ General
 Version 1.2.9b (August 2025)
 
 Core Systems & Universe Scaling
-	Improved Galaxy Scaling: the sector now scales consistently in both axes using a new elliptical factor.
-	The sector size is only set when starting a new game (never mid-save), which fixes the misaligned Intel/click areas on the map.
-	Safe Defaults: if you enter invalid galaxy settings (width, height, cell size, constellation count), the game will automatically fall back to vanilla values, avoiding crashes or huge performance drops.
+    Improved Galaxy Scaling: the sector now scales consistently in both axes using a new elliptical factor.
+    The sector size is only set when starting a new game (never mid-save), which fixes the misaligned Intel/click areas on the map.
+    Safe Defaults: if you enter invalid galaxy settings (width, height, cell size, constellation count), the game will automatically fall back to vanilla values, avoiding crashes or huge performance drops.
 
 Exploration & Discovery
-	Stable Exploration Mode: Discovery scripts now pause when a dialog is open (Fleet Detachment from Industrial Evolution).
-	This prevents rare crashes and preserves the integrity of hidden systems.
-	Star & Planet Discovery Fixes: hidden systems are no longer revealed at the wrong time, and core worlds remain visible.
-	Discovery notifications and map reveals are deferred until it's safe to show them.
-	Improved Compatibility: a new listener (WHDialogMemoryPatcher) injects a valid memory map into certain dialog plugins to prevent null-pointer crashes caused by other mods.
-	This helps ensure smooth interactions when multiple mods run together.
+    Stable Exploration Mode: Discovery scripts now pause when a dialog is open (Fleet Detachment from Industrial Evolution).
+    This prevents rare crashes and preserves the integrity of hidden systems.
+    Star & Planet Discovery Fixes: hidden systems are no longer revealed at the wrong time, and core worlds remain visible.
+    Discovery notifications and map reveals are deferred until it's safe to show them.
+    Improved Compatibility: a new listener (WHDialogMemoryPatcher) injects a valid memory map into certain dialog plugins to prevent null-pointer crashes caused by other mods.
+    This helps ensure smooth interactions when multiple mods run together.
 
 Systems & Colonies
-	Unique Planet IDs: fixed a long-standing bug where two planets could share the same internal ID, causing one colony to vanish from the colony tab.
-	Planets now get guaranteed unique IDs at generation time, and any duplicates are automatically corrected.
-	Spindle System Fix: the Spindle system is repositioned correctly after scaling, and hyperspace terrain around it is cleared and refilled to match its new location.
+    Unique Planet IDs: fixed a long-standing bug where two planets could share the same internal ID, causing one colony to vanish from the colony tab.
+    Planets now get guaranteed unique IDs at generation time, and any duplicates are automatically corrected.
+    Spindle System Fix: the Spindle system is repositioned correctly after scaling, and hyperspace terrain around it is cleared and refilled to match its new location.
 
 User Interface
-	Intel & Map UI Alignment: resolved an issue that caused click regions of Intel pop-ups to extend far into the screen when using non-vanilla sector sizes.
-	Buttons and lists now behave reliably regardless of sector scale.
-	Prevented Mid-Game Desyncs: changing sector size settings in the middle of a campaign no longer disrupts the UI - settings only apply when you start a new game.
+    Intel & Map UI Alignment: resolved an issue that caused click regions of Intel pop-ups to extend far into the screen when using non-vanilla sector sizes.
+    Buttons and lists now behave reliably regardless of sector scale.
+    Prevented Mid-Game Desyncs: changing sector size settings in the middle of a campaign no longer disrupts the UI - settings only apply when you start a new game.
 
 Stability & Compatibility
-	Crash-to-Desktop Fixes: addressed a rare crash when picking up stranded fleets in hyperspace while exploration mode was active.
-	Wide Horizons now coordinates with dialog systems to avoid null references.
-	Better Logging: improved log messages and warnings to help diagnose issues if they occur, without spamming the player with unnecessary information.
-	Cross-mod Support: numerous under-the-hood improvements make Wide Horizons more compatible with major mods like Industrial Evolution, Nexerelin and Random Assortment of Things.
+    Crash-to-Desktop Fixes: addressed a rare crash when picking up stranded fleets in hyperspace while exploration mode was active.
+    Wide Horizons now coordinates with dialog systems to avoid null references.
+    Better Logging: improved log messages and warnings to help diagnose issues if they occur, without spamming the player with unnecessary information.
+    Cross-mod Support: numerous under-the-hood improvements make Wide Horizons more compatible with major mods like Industrial Evolution, Nexerelin and Random Assortment of Things.
 
 Performance improvements for Dark Star visual effects
-	Optimized the glow-mote effects around Void and Pulse Stars.
-	These effects will now only run while you are inside the system.
-	When you leave the system, they stop cleanly to avoid unnecessary background load.
-	This reduces stutter and improves performance in large mod setups.
+    Optimized the glow-mote effects around Void and Pulse Stars.
+    These effects will now only run while you are inside the system.
+    When you leave the system, they stop cleanly to avoid unnecessary background load.
+    This reduces stutter and improves performance in large mod setups.
 
 Version 1.2.9a (August 2025)
 
@@ -544,7 +535,7 @@ Fixes & Improvements
 Version 1.2.7 (August 2025)
 
 Added New Runtime Diagnostics Command
-    You can now use the console command whdiag_runtime to check what’s actually spawned in your sector - live, without reloading.
+    You can now use the console command whdiag_runtime to check what�s actually spawned in your sector - live, without reloading.
         This includes:
             Sector size & hyperspace grid info
             Storm penalty status & Abyss detection
@@ -567,7 +558,7 @@ Version 1.2.6 (August 2025)
 Discovery System Update
     Improved save compatibility: discovered systems and jump points are now stored reliably in the save file.
     Fixed an issue where some systems would always appear visible, even if undiscovered.
-    Systems are now only revealed if they have a visible market or you’ve discovered their jump anchor.
+    Systems are now only revealed if they have a visible market or you�ve discovered their jump anchor.
     Entering a system or discovering its jump point will now correctly unlock it on the map.
 
 Fixed hyperspace toggle: "Strange Hyperspace: Off" now shows vanilla blue clouds everywhere as intended.
@@ -618,7 +609,7 @@ Slipstream Fix
     Safe re-enable: Turning slipstreams back On restores exactly one vanilla manager with a gentle start (no burst spawns).
     Savegame cleanup: Existing saves get a one-time migration that deduplicates managers/terrains and aligns them to your toggle.
 
-    No more duplicates: Fixed an issue where multiple managers could run at once, causing 2–3 more slipstreams.
+    No more duplicates: Fixed an issue where multiple managers could run at once, causing 2�3 more slipstreams.
     Performance/stability: No per-frame overhead; cleaner hyperspace state.
     (If another mod hard-overrides slipstreams, behavior may vary)
 
@@ -639,7 +630,7 @@ Performance:
     Clean implementation without per-frame overhead - no FPS drops.
     Toggle-friendly: Can be switched mid-save. (If another mod also edits hyperspace visuals, results may vary.)
 
-Fixed a rare crash during new-game generation caused by certain modded star types (e.g. “Helia”, “black_hole_secret”).
+Fixed a rare crash during new-game generation caused by certain modded star types (e.g. �Helia�, �black_hole_secret�).
     Systems with unsupported star types are now safely skipped during expansion instead of causing a crash.
     Improved stability when adding extra planets/moons to vanilla systems.
     Removed a step that could conflict with some star specs, reducing edge-case errors.
@@ -654,7 +645,7 @@ Hotfix (systems expansion & settings)
     expansion now safely proceeds using neutral star data when needed.
     Better mod compatibility: Stars added by other mods are never replaced. Wide Horizons only adds extra planets/moons to existing systems.
     Stable system expansion: Removed risky calls on stars and improved error handling. If something fails, the mod retries with smaller batches instead of breaking.
-    Settings toggles fixed: Discovery options now use ON/OFF correctly and won’t spam the log with missing-value errors.
+    Settings toggles fixed: Discovery options now use ON/OFF correctly and won�t spam the log with missing-value errors.
     Cleaner logs: Reduced warning noise; important messages remain.
 
 Note: Effects apply to new games (world generation). Existing saves are unchanged.
@@ -678,7 +669,7 @@ Wide Horizons - Discovery & Slipstream Settings:
         Check Interval (Min/Max): Performance tuning for how often discovery checks run.
         Jump Anchor Sensor Profile: Higher = anchors are easier to spot on sensors.
         Discovery XP: XP gained when discovering something (set to 0 to disable).
-        Show “Discovered” Message (Off/On): Toggle the small pop-up.
+        Show �Discovered� Message (Off/On): Toggle the small pop-up.
         Discover in Hyperspace / Inside Systems (Off/On): Where discovery runs.
         Only Procgen Systems (Off/On): Keep hand-placed systems vanilla.
         Beacons Create Intel (Off/On): Auto-add intel when discovering warning beacons.
@@ -706,7 +697,7 @@ Strange Hyperspace (WIP)
 
 Heads-up
     WIP: Balancing, visuals, and effects are still in progress. Expect updates soon with new effects and new content tied to Strange Hyperspace.
-    Applying changes: For the cleanest result after switching On/Off, reload your save or start a new game (some visuals don’t fully swap mid-session).
+    Applying changes: For the cleanest result after switching On/Off, reload your save or start a new game (some visuals don�t fully swap mid-session).
 
 Known (for now)
     Mid-session toggles may not recolor existing clouds immediately.
@@ -746,10 +737,10 @@ Version 1.1.4 (August 2025)
 Wide Horizons now supports Customizable Star Systems (CSS) natively:
     If you use Customizable Star Systems, Wide Horizons will automatically detect and scale any custom systems you define.
     Systems are matched using either:
-        the star’s "name" (first star entity in your JSON)
+        the star�s "name" (first star entity in your JSON)
         or the coordinates provided in "setLocation": [x, y]
-    No config changes are needed on your part - it just works™.
-Note: Systems without a name and without setLocation can’t be detected. To ensure proper support, please include at least one of those fields.
+    No config changes are needed on your part - it just works�.
+Note: Systems without a name and without setLocation can�t be detected. To ensure proper support, please include at least one of those fields.
 
 System Position Fixes:
     The following star systems were slightly repositioned to better fit the sector layout:
@@ -772,7 +763,7 @@ System Name Overhaul:
 System Descriptions Update:
 
     Added unique lore-based descriptions for all custom star systems introduced by Wide Horizons.
-    No more “No description… yet” placeholders every major system now features immersive background text in the tooltip and Intel Codex.
+    No more �No description� yet� placeholders every major system now features immersive background text in the tooltip and Intel Codex.
     Systems such as Doria, Alecto, Eidyn, Kazeron, Eventide, Vellian, Sarnor,
     and both Void and Pulse Dark Star systems now include detailed flavor reflecting their theme and role in the sector.
     Descriptions appear when hovering over the system or when viewing it in the Codex.
@@ -840,7 +831,7 @@ Important Note - New Save Required!
 New Feature:
     Automatic Core World Scaling
     Core systems like Corvus and Askonia now scale automatically with the rest of the sector
-    when the “Core World Scaling” option is set to “Auto” in LunaSettings.
+    when the �Core World Scaling� option is set to �Auto� in LunaSettings.
     You can also choose fixed values like 150%, 200%, etc., or keep the Vanilla size if preferred.
 
 Bugfix:
@@ -849,7 +840,7 @@ Bugfix:
     Some special systems (e.g. HMI Manchester, Lost Sector Enigma) were not repositioned properly. Now tracked correctly.
 
 Sector Terrain:
-    The new, expanded hyperspace terrain is now technically based on Starsector’s original system.
+    The new, expanded hyperspace terrain is now technically based on Starsector�s original system.
     This ensures full compatibility with other mods like Nexerelin and RAT, even on large sector maps.
 
 Stability:
@@ -860,9 +851,9 @@ Accessibility Scaling Fix:
     In vanilla, colonies far from the center of the map get -1 accessibility, breaking trade and supply.
     With this update, accessibility now scales with sector size, so distant colonies stay connected.
 
-        Example: On a 2× sector, the limit increases from 50 to 80 light-years.
+        Example: On a 2� sector, the limit increases from 50 to 80 light-years.
 
-    Fringe colonies are still harder to support — but no longer isolated.
+    Fringe colonies are still harder to support � but no longer isolated.
 
 Improved:
     Core Worlds can now be scaled independently from the rest of the sector (optional setting).
@@ -881,7 +872,7 @@ What this means for players:
 
 Other:
     Numerous internal improvements to terrain detection, sector coordinates, and system placement.
-    Most of these changes are “under the hood” and result in better stability and mod compatibility.
+    Most of these changes are �under the hood� and result in better stability and mod compatibility.
 
 If you encounter issues with specific mods or missions after this update, please let us know on the forums or Discord at Taiwendo!
 
@@ -895,7 +886,7 @@ Improved Compatibility:
     Wide Horizons now better supports Nexerelin and other sector-randomizing mods.
 
 Random Sector Warning:
-    If Nexerelin’s Random Sector Mode is enabled, you’ll see a clear warning message and will be returned to the main menu.
+    If Nexerelin�s Random Sector Mode is enabled, you�ll see a clear warning message and will be returned to the main menu.
     Wide Horizons is only compatible with the standard (Corvus/Core) sector mode.
 
 Prevents Broken Starts:
@@ -926,7 +917,7 @@ Core System Architecture Rework:
 
 Foundation Rebuilt for Large-Scale Sector Support
     The internal structure for star system placement, registration, and alignment has been completely reworked.
-    WideHorizons now uses a centralized framework to accurately reposition systems—Vanilla and modded—alongside their content, terrain, and static entities.
+    WideHorizons now uses a centralized framework to accurately reposition systems�Vanilla and modded�alongside their content, terrain, and static entities.
 
 Content-Aware Positioning
     Systems are no longer just moved by coordinates: all attached entities (e.g., planets, stations, derelicts) are repositioned intelligently as part of the system structure.
@@ -942,51 +933,51 @@ Fixed Position System Framework
 
 Version Checker Integration
     WideHorizons now supports the Version Checker.
-    You’ll be notified in the main menu whenever a new version of WideHorizons is available—no more guessing or missing important updates.
+    You�ll be notified in the main menu whenever a new version of WideHorizons is available�no more guessing or missing important updates.
 
 Fixed:
     Some systems (e.g. Mayasura) had misaligned stations, gates, or relays after being moved in the larger sector.
     This was caused by entities using fixed setLocation(...) coordinates without orbits, which did not follow the moved system center.
-    Solution: All non-orbital system entities (e.g. gates, beacons, custom stations) are now automatically attached to their system’s star and follow correctly when the system is repositioned.
+    Solution: All non-orbital system entities (e.g. gates, beacons, custom stations) are now automatically attached to their system�s star and follow correctly when the system is repositioned.
     Also excluded dynamic entities (like scanners, spawners or patrol anchors) from being locked to system centers, preserving intended behaviors.
 
 Bugfixes and Improvements:
-– Fixed crash caused by mismatched tile string length
-– Prevented abyss regions from being overwritten during refill
-– Added tile length validation for safe terrain initialization
-– Reduced duplicate clearing calls for better performance
-– Added terrain auto-initialization fallback
+� Fixed crash caused by mismatched tile string length
+� Prevented abyss regions from being overwritten during refill
+� Added tile length validation for safe terrain initialization
+� Reduced duplicate clearing calls for better performance
+� Added terrain auto-initialization fallback
 
 Improvements & Fixes:
 
 Hyperspace Terrain Clearing and Refilling:
-    Now the mod properly clears hyperspace nebula (“fog”) only around registered star systems and safely refills those areas on load. This prevents unwanted fog edits and improves navigation and visibility in a larger sector.
+    Now the mod properly clears hyperspace nebula (�fog�) only around registered star systems and safely refills those areas on load. This prevents unwanted fog edits and improves navigation and visibility in a larger sector.
 
 System Repositioning Stability:
-    Star systems and their static entities are now consistently registered and repositioned based on saved coordinates, ensuring stable layouts after loading or sector generation. All non-orbital entities are auto-attached to the system’s star.
+    Star systems and their static entities are now consistently registered and repositioned based on saved coordinates, ensuring stable layouts after loading or sector generation. All non-orbital entities are auto-attached to the system�s star.
 
 Developer Mode Logging:
-    All internal logs are now gated behind Developer Mode. You’ll only see detailed debug output if DevMode is active, keeping the log clean during normal gameplay.
+    All internal logs are now gated behind Developer Mode. You�ll only see detailed debug output if DevMode is active, keeping the log clean during normal gameplay.
 
 Central Logging via WHDevLogger:
     A new WHDevLogger utility handles all info, warn, and error output. It ensures consistent formatting, centralized control, and dev-mode-only output where appropriate.
 
 Bugfixes and Internal Improvements:
-– Fixed duplicate position updates caused by redundant system re-registration
-– Ensured proper initialization of hyperspace terrain during generation and load
-– Improved handling of abyss tiles to prevent invalid terrain overwrite
-– Logging now includes tile debug info (before/after) for clear diagnostics
-– Automatically skips auto-fix of dynamic entities to preserve AI and script behavior
+� Fixed duplicate position updates caused by redundant system re-registration
+� Ensured proper initialization of hyperspace terrain during generation and load
+� Improved handling of abyss tiles to prevent invalid terrain overwrite
+� Logging now includes tile debug info (before/after) for clear diagnostics
+� Automatically skips auto-fix of dynamic entities to preserve AI and script behavior
 
 What This Means for Players
-– Clearer and more immersive hyperspace visuals around key systems
-– Stable and reliable sector layout during both new game and reload
-– Minimal log clutter unless actively debugging
-– Improved performance and compatibility with terrain-related mods
+� Clearer and more immersive hyperspace visuals around key systems
+� Stable and reliable sector layout during both new game and reload
+� Minimal log clutter unless actively debugging
+� Improved performance and compatibility with terrain-related mods
 
 Accurate System ID Matching
     System detection is now based on the actual Starsector-internal IDs, ensuring precise registration regardless of name capitalization or localization.
-    Mods using duplicate system names (e.g., “Acheron”) are handled cautiously to avoid conflicts.
+    Mods using duplicate system names (e.g., �Acheron�) are handled cautiously to avoid conflicts.
 
 Duplicate System Protection
     Systems with identical IDs from multiple mods (like SCY and DPL) are safely checked before repositioning.
@@ -994,7 +985,7 @@ Duplicate System Protection
 
 Mod Detection-Based Placement
     Fixed system positioning is now fully conditional: systems are only repositioned if the corresponding mod is detected.
-    This avoids errors and maintains a clean layout for each user’s mod setup.
+    This avoids errors and maintains a clean layout for each user�s mod setup.
 
 Version 1.0.5 (July 2025)
 
