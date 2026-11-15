@@ -10,7 +10,7 @@ Modified:
 	Core includes sector generation and scaling and can be used on its own
 	Content requires Core and adds missions, Dark Star systems, and Eidolon content
 	Removed the countdown from the third Strange Hyperspace mission, which has no time limit
-
+	
 Fixed:
 	Sector generation no longer stalls if derelict probes or survey ships cannot be placed
 	Fixed hyperspace terrain clearing around fixed star systems when scaling the sector
@@ -23,57 +23,56 @@ Fixed:
 	Eidolon Server Hub bonuses now pause during construction or disruption
 	Duplicate AI cores no longer stack their bonuses
 	The salvage reset command now clears Wide Horizons bonuses from both the fleet and the player while preserving bonuses from other mods
-
+	
 Note:
-    I'm counting on your feedback to help me adjust the default settings for the current system sizes.
-
+	I'm counting on your feedback to help me adjust the default settings for the current system sizes.
+	
 -------------------------------------------------------------------------------------------------------------------------------------------
-
+	
 Version 1.4.2c (November 2026)
 
 Save compatible with 1.4.x
 
 Modified:
-    Updated Wide Horizons for the latest Starsector release, including Survival Mode.
-    Derelict ships now follow Survival Mode’s recovery and condition rules.
-    Remnant systems are less likely to be skipped during sector generation.
-
+	Updated Wide Horizons for the latest Starsector release, including Survival Mode
+	Derelict ships now follow Survival Mode’s recovery and condition rules
+	Remnant systems are less likely to be skipped during sector generation
+	
 Fixed:
-    Coronal Taps can now spawn in fallback systems when preferred systems are unavailable.
-    Fixed a map rendering issue affecting Strange Hyperspace.
-    Fixed a bug that could apply Strange Void or Strange Pulse effects more than once.
-
-
+	Coronal Taps can now spawn in fallback systems when preferred systems are unavailable
+	Fixed a map rendering issue affecting Strange Hyperspace
+	Fixed a bug that could apply Strange Void or Strange Pulse effects more than once
+	
 Note:
 	I'm counting on your feedback to help me adjust the default settings for the current system sizes.
-
+	
 Version 1.4.2b (October 2026)
 
 Save compatible with 1.4.x
 
 Modified:
 	New mod support added: Maelstrom The Nomads, Domain Historical Society, Tyrador Safeguard Coalition
-
+	
 Fixed:
-	
-	
-	
+
+
 Note:
 	I'm counting on your feedback to help me adjust the default settings for the current system sizes.
-
+	
 Version 1.4.2a (October 2026)
 
 Save compatible with 1.4.x
 
 Modified:
 	The Core World Scaler has been improved
-
+	
 Fixed:
 	The WWLB magnetar system is now being moved correctly
 	
 	
 Note:
 	I'm counting on your feedback to help me adjust the default settings for the current system sizes.
+
 
 Version 1.4.2 (September 2026)
 
