@@ -1,3 +1,29 @@
+Version 1.5.1 (November 2026)
+
+Save compatible with 1.5.x
+
+Modified:
+    Added separate options to disable low-, medium-, and high-danger Remnant systems in new campaigns.
+        Disabled danger levels are replaced by enabled ones. Disabling all three prevents Remnant-themed constellations from generating.
+    The first Strange Hyperspace mission now becomes available within the first 60 days.
+    The Strange Hyperspace mission chain is disabled in Nexerelin's Random Sector mode.
+    Failed Black Project investigations can be retried on New Aurora.
+    New content has been added
+
+Fixed:
+    The 50% sector preset now uses half the vanilla width and height.
+    Moved star systems now have clear approaches at their new locations, and hyperspace clouds return around their old locations.
+    Fixed system placements no longer carry over between campaigns.
+    Generating a sector with the same seed now reproduces its hyperspace clouds.
+    Fuel, supply, and mission time scaling now use the size of the loaded campaign.
+    Similar missions now get their deadlines adjusted individually, and reloading a save won't extend them twice.
+    Removed outdated Blade Breaker compatibility code for Dassault-Mikoyan Engineering.
+    Strange Hyperspace and Black Project mission entries now show their faction crests.
+    Black Project now marks the correct destination for each leg and clears the marker when the deadline expires.
+
+Note:
+    I'm counting on your feedback to help me adjust the default settings for the current system sizes.
+
 Version 1.5.0 (November 2026)
 
 Not Save compatible with 1.4.x
