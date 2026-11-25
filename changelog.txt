@@ -1,3 +1,22 @@
+ersion 1.5.1b (November 2026)
+
+Save compatible with 1.5.x
+
+Modified:
+    Backward compatibility added in version 0.98a-RC8.
+    Music pool function adapted for backward compatibility.
+    Coronal Hypershunt counts now scale with the number of constellations in new campaigns.
+    Added system support for the "Blue Moon Syndicate" mod.
+
+Fixed:
+    Abyss encounters and system detection now follow vanilla rules while respecting the configured Abyss scaling.
+    Loading a campaign now removes outdated Abyss encounter sources left behind by Wide Horizons.
+    Fixed an Abyss scaling issue when combining the 50% sector preset with maximum Abyss scaling.
+    Fixed the encounter with the Quantum Entity; it now occurs much less frequently.
+
+Note:
+    I'm counting on your feedback to help me adjust the default settings for the current system sizes.
+
 Version 1.5.1a (November 2026)
 
 Save compatible with 1.5.x
