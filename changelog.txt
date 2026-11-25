@@ -3,7 +3,7 @@ Version 1.5.1b (November 2026)
 Save compatible with 1.5.x
 
 Modified:
-    Backward compatibility added in version 0.98a-RC8.
+    Backward compatibility added to version 0.98a-RC8.
     Music pool function adapted for backward compatibility.
     Coronal Hypershunt counts now scale with the number of constellations in new campaigns.
     Added system support for the "Blue Moon Syndicate" mod.
